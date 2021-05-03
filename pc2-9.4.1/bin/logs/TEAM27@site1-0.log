@@ -1,0 +1,1098 @@
+210309 200221.481|CONFIG|Thread-2|setFileHandlers|Now logging to C:\Users\user\Downloads\pc2-9.4.1\bin\logs directory.
+210309 200221.481|INFO|Thread-2|info|
+210309 200221.481|INFO|Thread-2|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 15.0.2 build 3850 Windows 10 10.0 (amd64) 
+210309 200221.481|INFO|Thread-2|info|Login: team27 (aka team27)
+210309 200221.482|INFO|Thread-2|startLog|Working directory is C:\Users\user\Downloads\pc2-9.4.1\bin
+210309 200221.482|INFO|Thread-2|startLog|Process id is 3972@MSI
+210309 200221.482|INFO|Thread-2|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+210309 200221.493|INFO|Thread-2|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+210309 200221.654|INFO|Thread-2|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+210309 200221.656|INFO|Thread-2|info|handlePacket end Packet[LOGIN_SUCCESS] #302 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 200221.656|INFO|Thread-2|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #302 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 202128.043|INFO|Thread-3|testRun|test run for Above Average Python3 file: C:\Users\user\Desktop\algorithm\HW1_0309\Above_Average.py
+210309 202128.051|CONFIG|Thread-3|compileProgram|Team submitted an executable 
+210309 202128.051|DEBUG|Thread-3|compileProgram|before substitution: python3 -m py_compile {:mainfile}
+210309 202128.052|DEBUG|Thread-3|compileProgram|after  substitution: python3 -m py_compile Above_Average.py
+210309 202128.080|CONFIG|Thread-3|runProgram|executing: 'python3 -m py_compile Above_Average.py'
+210309 202132.531|DEBUG|Thread-3|executeProgram|before substitution: python3 {:mainfile}
+210309 202132.531|DEBUG|Thread-3|executeProgram|after  substitution: python3 Above_Average.py
+210309 202132.532|CONFIG|Thread-3|runProgram|executing: 'python3 Above_Average.py'
+210309 202132.615|INFO|Thread-3|executeProgram|Using STDIN from file executesite1team27\__t14831293170772144966.in
+210309 202132.743|INFO|Thread-3|executeProgram|Run exceeded time limit 10 secs, Run = Run 0 QUEUED_FOR_COMPUTER_JUDGEMENT 0 min 0ms from TEAM27 @ site 1 id Run--2949623431727500396 problem AboveAverage-4355714008259195756 lang Python3-1412366373516147894
+210309 202244.499|INFO|Thread-10|testRun|test run for Above Average Python3 file: C:\Users\user\Desktop\algorithm\HW1_0309\Above_Average.py
+210309 202244.505|CONFIG|Thread-10|compileProgram|Team submitted an executable 
+210309 202244.505|DEBUG|Thread-10|compileProgram|before substitution: python3 -m py_compile {:mainfile}
+210309 202244.505|DEBUG|Thread-10|compileProgram|after  substitution: python3 -m py_compile Above_Average.py
+210309 202244.526|CONFIG|Thread-10|runProgram|executing: 'python3 -m py_compile Above_Average.py'
+210309 202248.874|DEBUG|Thread-10|executeProgram|before substitution: python3 {:mainfile}
+210309 202248.875|DEBUG|Thread-10|executeProgram|after  substitution: python3 Above_Average.py
+210309 202248.875|CONFIG|Thread-10|runProgram|executing: 'python3 Above_Average.py'
+210309 202248.949|INFO|Thread-10|executeProgram|Using STDIN from file executesite1team27\__t15348499530038066708.in
+210309 202249.074|INFO|Thread-10|executeProgram|Run exceeded time limit 10 secs, Run = Run 0 QUEUED_FOR_COMPUTER_JUDGEMENT 0 min 0ms from TEAM27 @ site 1 id Run-7422778201980437563 problem AboveAverage-4355714008259195756 lang Python3-1412366373516147894
+210309 202306.591|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Above Average Python3 file: C:\Users\user\Desktop\algorithm\HW1_0309\Above_Average.py
+210309 202306.592|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210309 202306.592|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210309 202306.851|INFO|Thread-18|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #825 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 202306.852|INFO|Thread-18|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #825 ) recieveObject
+210309 202306.852|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default--6944730299779330229)
+210309 202306.852|INFO|Thread-18|dumpPacket|    To: TEAM27 @ site 1
+210309 202306.852|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 76 QUEUED_FOR_COMPUTER_JUDGEMENT 23 min 1404351ms from TEAM27 @ site 1 id Run--8302829263132701774 problem AboveAverage-4355714008259195756 lang Python3-1412366373516147894
+210309 202306.852|INFO|Thread-18|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #825 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 202306.852|INFO|Thread-18|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #825 ) handlePacket
+210309 202306.853|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default--6944730299779330229)
+210309 202306.853|INFO|Thread-18|dumpPacket|    To: TEAM27 @ site 1
+210309 202306.853|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 76 QUEUED_FOR_COMPUTER_JUDGEMENT 23 min 1404351ms from TEAM27 @ site 1 id Run--8302829263132701774 problem AboveAverage-4355714008259195756 lang Python3-1412366373516147894
+210309 202307.972|INFO|Thread-19|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #829 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 202307.972|INFO|Thread-19|dumpPacket|Packet RUN_JUDGEMENT (Seq #829 ) recieveObject
+210309 202307.973|INFO|Thread-19|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default--6944730299779330229)
+210309 202307.973|INFO|Thread-19|dumpPacket|    To: TEAM27 @ site 1
+210309 202307.973|INFO|Thread-19|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 76 JUDGED 23 min 1404351ms from TEAM27 @ site 1 id Run--8302829263132701774 problem AboveAverage-4355714008259195756 lang Python3-1412366373516147894
+210309 202307.973|INFO|Thread-19|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes--4745065276249511256 id JudgementRecord--8942834818370518254
+210309 202307.973|INFO|Thread-19|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210309 202307.973|INFO|Thread-19|info|handlePacket start Packet[RUN_JUDGEMENT] #829 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 202307.973|INFO|Thread-19|dumpPacket|Packet RUN_JUDGEMENT (Seq #829 ) handlePacket
+210309 202307.973|INFO|Thread-19|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default--6944730299779330229)
+210309 202307.974|INFO|Thread-19|dumpPacket|    To: TEAM27 @ site 1
+210309 202307.974|INFO|Thread-19|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 76 JUDGED 23 min 1404351ms from TEAM27 @ site 1 id Run--8302829263132701774 problem AboveAverage-4355714008259195756 lang Python3-1412366373516147894
+210309 202307.974|INFO|Thread-19|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes--4745065276249511256 id JudgementRecord--8942834818370518254
+210309 202307.974|INFO|Thread-19|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210309 202315.341|INFO|Thread-19|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #829 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 202316.359|INFO|Thread-18|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #825 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 204555.669|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Odd Sum Without Prime Python3 file: C:\Users\user\Desktop\algorithm\HW1_0309\Odd_Sum_without_prime.py
+210309 204555.671|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM27 @ site 1 -> SERVER0 @ site 1
+210309 204555.671|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM27 @ site 1 -> SERVER0 @ site 1
+210309 204556.058|INFO|Thread-21|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1086 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 204556.058|INFO|Thread-21|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1086 ) recieveObject
+210309 204556.059|INFO|Thread-21|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default--6944730299779330229)
+210309 204556.059|INFO|Thread-21|dumpPacket|    To: TEAM27 @ site 1
+210309 204556.059|INFO|Thread-21|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 109 QUEUED_FOR_COMPUTER_JUDGEMENT 46 min 2773412ms from TEAM27 @ site 1 id Run--3800812233128796995 problem Odd Sum Without Prime--6054085710471689940 lang Python3-1412366373516147894
+210309 204556.059|INFO|Thread-21|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1086 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 204556.059|INFO|Thread-21|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1086 ) handlePacket
+210309 204556.059|INFO|Thread-21|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default--6944730299779330229)
+210309 204556.059|INFO|Thread-21|dumpPacket|    To: TEAM27 @ site 1
+210309 204556.059|INFO|Thread-21|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 109 QUEUED_FOR_COMPUTER_JUDGEMENT 46 min 2773412ms from TEAM27 @ site 1 id Run--3800812233128796995 problem Odd Sum Without Prime--6054085710471689940 lang Python3-1412366373516147894
+210309 204557.739|INFO|Thread-22|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1092 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 204557.739|INFO|Thread-22|dumpPacket|Packet RUN_JUDGEMENT (Seq #1092 ) recieveObject
+210309 204557.739|INFO|Thread-22|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default--6944730299779330229)
+210309 204557.739|INFO|Thread-22|dumpPacket|    To: TEAM27 @ site 1
+210309 204557.739|INFO|Thread-22|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 109 JUDGED 46 min 2773412ms from TEAM27 @ site 1 id Run--3800812233128796995 problem Odd Sum Without Prime--6054085710471689940 lang Python3-1412366373516147894
+210309 204557.739|INFO|Thread-22|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes--4745065276249511256 id JudgementRecord--7621950918281779867
+210309 204557.740|INFO|Thread-22|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210309 204557.740|INFO|Thread-22|info|handlePacket start Packet[RUN_JUDGEMENT] #1092 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 204557.740|INFO|Thread-22|dumpPacket|Packet RUN_JUDGEMENT (Seq #1092 ) handlePacket
+210309 204557.740|INFO|Thread-22|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default--6944730299779330229)
+210309 204557.740|INFO|Thread-22|dumpPacket|    To: TEAM27 @ site 1
+210309 204557.740|INFO|Thread-22|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 109 JUDGED 46 min 2773412ms from TEAM27 @ site 1 id Run--3800812233128796995 problem Odd Sum Without Prime--6054085710471689940 lang Python3-1412366373516147894
+210309 204557.740|INFO|Thread-22|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes--4745065276249511256 id JudgementRecord--7621950918281779867
+210309 204557.740|INFO|Thread-22|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210309 204559.244|INFO|Thread-22|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1092 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 204600.069|INFO|Thread-21|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1086 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 211533.604|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Prime Factor Python3 file: C:\Users\user\Desktop\algorithm\HW1_0309\Prime_Factor.py
+210309 211533.610|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #4 TEAM27 @ site 1 -> SERVER0 @ site 1
+210309 211533.611|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #4 TEAM27 @ site 1 -> SERVER0 @ site 1
+210309 211533.934|INFO|Thread-24|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1264 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 211533.935|INFO|Thread-24|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1264 ) recieveObject
+210309 211533.935|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default--6944730299779330229)
+210309 211533.935|INFO|Thread-24|dumpPacket|    To: TEAM27 @ site 1
+210309 211533.935|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 129 QUEUED_FOR_COMPUTER_JUDGEMENT 75 min 4551356ms from TEAM27 @ site 1 id Run-4063869335456549358 problem Prime Factor--7660198446736623015 lang Python3-1412366373516147894
+210309 211533.935|INFO|Thread-24|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1264 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 211533.936|INFO|Thread-24|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1264 ) handlePacket
+210309 211533.936|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default--6944730299779330229)
+210309 211533.936|INFO|Thread-24|dumpPacket|    To: TEAM27 @ site 1
+210309 211533.936|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 129 QUEUED_FOR_COMPUTER_JUDGEMENT 75 min 4551356ms from TEAM27 @ site 1 id Run-4063869335456549358 problem Prime Factor--7660198446736623015 lang Python3-1412366373516147894
+210309 211535.953|INFO|Thread-25|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1268 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 211535.954|INFO|Thread-25|dumpPacket|Packet RUN_JUDGEMENT (Seq #1268 ) recieveObject
+210309 211535.954|INFO|Thread-25|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default--6944730299779330229)
+210309 211535.954|INFO|Thread-25|dumpPacket|    To: TEAM27 @ site 1
+210309 211535.954|INFO|Thread-25|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 129 JUDGED 75 min 4551356ms from TEAM27 @ site 1 id Run-4063869335456549358 problem Prime Factor--7660198446736623015 lang Python3-1412366373516147894
+210309 211535.954|INFO|Thread-25|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes--4745065276249511256 id JudgementRecord-5934732213773423219
+210309 211535.954|INFO|Thread-25|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210309 211535.954|INFO|Thread-25|info|handlePacket start Packet[RUN_JUDGEMENT] #1268 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 211535.955|INFO|Thread-25|dumpPacket|Packet RUN_JUDGEMENT (Seq #1268 ) handlePacket
+210309 211535.955|INFO|Thread-25|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default--6944730299779330229)
+210309 211535.955|INFO|Thread-25|dumpPacket|    To: TEAM27 @ site 1
+210309 211535.955|INFO|Thread-25|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 129 JUDGED 75 min 4551356ms from TEAM27 @ site 1 id Run-4063869335456549358 problem Prime Factor--7660198446736623015 lang Python3-1412366373516147894
+210309 211535.955|INFO|Thread-25|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes--4745065276249511256 id JudgementRecord-5934732213773423219
+210309 211535.955|INFO|Thread-25|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210309 211536.963|INFO|Thread-25|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1268 SERVER0 @ site 1 -> TEAM27 @ site 1
+210309 211537.412|INFO|Thread-24|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1264 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 203043.871|CONFIG|Thread-2|setFileHandlers|Now logging to C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin\logs directory.
+210316 203043.872|INFO|Thread-2|info|
+210316 203043.872|INFO|Thread-2|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 15.0.2 build 3850 Windows 10 10.0 (amd64) 
+210316 203043.872|INFO|Thread-2|info|Login: team27 (aka team27)
+210316 203043.873|INFO|Thread-2|startLog|Working directory is C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin
+210316 203043.873|INFO|Thread-2|startLog|Process id is 16436@MSI
+210316 203043.873|INFO|Thread-2|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+210316 203043.883|INFO|Thread-2|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+210316 203044.045|INFO|Thread-2|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+210316 203044.046|INFO|Thread-2|info|handlePacket end Packet[LOGIN_SUCCESS] #643 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 203044.046|INFO|Thread-2|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #643 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 203109.928|INFO|Thread-3|testRun|test run for Even Sum Python3 file: C:\Users\user\Desktop\algorithm\HW2_0316\Even-Sum.py
+210316 203109.937|CONFIG|Thread-3|compileProgram|Team submitted an executable 
+210316 203109.938|DEBUG|Thread-3|compileProgram|before substitution: python3 -m py_compile {:mainfile}
+210316 203109.939|DEBUG|Thread-3|compileProgram|after  substitution: python3 -m py_compile Even-Sum.py
+210316 203109.964|CONFIG|Thread-3|runProgram|executing: 'python3 -m py_compile Even-Sum.py'
+210316 203113.681|DEBUG|Thread-3|executeProgram|before substitution: python3 {:mainfile}
+210316 203113.682|DEBUG|Thread-3|executeProgram|after  substitution: python3 Even-Sum.py
+210316 203113.682|CONFIG|Thread-3|runProgram|executing: 'python3 Even-Sum.py'
+210316 203113.758|INFO|Thread-3|executeProgram|Using STDIN from file executesite1team27\__t11045472732686475459.in
+210316 203113.884|INFO|Thread-3|executeProgram|Run exceeded time limit 10 secs, Run = Run 0 QUEUED_FOR_COMPUTER_JUDGEMENT 0 min 0ms from TEAM27 @ site 1 id Run--5518116572934764707 problem Even Sum-5125709015864913778 lang Python3--1061871659162409793
+210316 203118.854|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Even Sum Python3 file: C:\Users\user\Desktop\algorithm\HW2_0316\Even-Sum.py
+210316 203118.855|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210316 203118.856|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210316 203119.171|INFO|Thread-11|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #657 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 203119.171|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #657 ) recieveObject
+210316 203119.172|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 203119.172|INFO|Thread-11|dumpPacket|    To: TEAM27 @ site 1
+210316 203119.172|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 75 QUEUED_FOR_COMPUTER_JUDGEMENT 31 min 1885668ms from TEAM27 @ site 1 id Run--2890213620659271407 problem Even Sum-5125709015864913778 lang Python3--1061871659162409793
+210316 203119.172|INFO|Thread-11|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #657 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 203119.172|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #657 ) handlePacket
+210316 203119.172|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 203119.172|INFO|Thread-11|dumpPacket|    To: TEAM27 @ site 1
+210316 203119.173|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 75 QUEUED_FOR_COMPUTER_JUDGEMENT 31 min 1885668ms from TEAM27 @ site 1 id Run--2890213620659271407 problem Even Sum-5125709015864913778 lang Python3--1061871659162409793
+210316 203121.016|INFO|Thread-12|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #661 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 203121.016|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #661 ) recieveObject
+210316 203121.016|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 203121.016|INFO|Thread-12|dumpPacket|    To: TEAM27 @ site 1
+210316 203121.017|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 75 JUDGED 31 min 1885668ms from TEAM27 @ site 1 id Run--2890213620659271407 problem Even Sum-5125709015864913778 lang Python3--1061871659162409793
+210316 203121.017|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-8429160435976912404 id JudgementRecord--7345211665626836837
+210316 203121.017|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210316 203121.017|INFO|Thread-12|info|handlePacket start Packet[RUN_JUDGEMENT] #661 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 203121.017|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #661 ) handlePacket
+210316 203121.017|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 203121.017|INFO|Thread-12|dumpPacket|    To: TEAM27 @ site 1
+210316 203121.018|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 75 JUDGED 31 min 1885668ms from TEAM27 @ site 1 id Run--2890213620659271407 problem Even Sum-5125709015864913778 lang Python3--1061871659162409793
+210316 203121.018|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-8429160435976912404 id JudgementRecord--7345211665626836837
+210316 203121.018|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210316 203122.956|INFO|Thread-12|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #661 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 203123.429|INFO|Thread-11|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #657 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 203805.804|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for GCD Python3 file: C:\Users\user\Desktop\algorithm\HW2_0316\GCD.py
+210316 203805.805|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM27 @ site 1 -> SERVER0 @ site 1
+210316 203805.805|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM27 @ site 1 -> SERVER0 @ site 1
+210316 203806.084|INFO|Thread-14|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #764 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 203806.085|INFO|Thread-14|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #764 ) recieveObject
+210316 203806.085|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 203806.085|INFO|Thread-14|dumpPacket|    To: TEAM27 @ site 1
+210316 203806.085|INFO|Thread-14|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 88 QUEUED_FOR_COMPUTER_JUDGEMENT 38 min 2292641ms from TEAM27 @ site 1 id Run-7310515105144388530 problem GCD-1359514569161656602 lang Python3--1061871659162409793
+210316 203806.085|INFO|Thread-14|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #764 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 203806.085|INFO|Thread-14|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #764 ) handlePacket
+210316 203806.085|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 203806.086|INFO|Thread-14|dumpPacket|    To: TEAM27 @ site 1
+210316 203806.086|INFO|Thread-14|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 88 QUEUED_FOR_COMPUTER_JUDGEMENT 38 min 2292641ms from TEAM27 @ site 1 id Run-7310515105144388530 problem GCD-1359514569161656602 lang Python3--1061871659162409793
+210316 203807.933|INFO|Thread-15|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #768 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 203807.933|INFO|Thread-15|dumpPacket|Packet RUN_JUDGEMENT (Seq #768 ) recieveObject
+210316 203807.933|INFO|Thread-15|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 203807.933|INFO|Thread-15|dumpPacket|    To: TEAM27 @ site 1
+210316 203807.933|INFO|Thread-15|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 88 JUDGED 38 min 2292641ms from TEAM27 @ site 1 id Run-7310515105144388530 problem GCD-1359514569161656602 lang Python3--1061871659162409793
+210316 203807.933|INFO|Thread-15|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-8429160435976912404 id JudgementRecord-3426615869320829829
+210316 203807.933|INFO|Thread-15|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210316 203807.934|INFO|Thread-15|info|handlePacket start Packet[RUN_JUDGEMENT] #768 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 203807.934|INFO|Thread-15|dumpPacket|Packet RUN_JUDGEMENT (Seq #768 ) handlePacket
+210316 203807.934|INFO|Thread-15|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 203807.934|INFO|Thread-15|dumpPacket|    To: TEAM27 @ site 1
+210316 203807.934|INFO|Thread-15|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 88 JUDGED 38 min 2292641ms from TEAM27 @ site 1 id Run-7310515105144388530 problem GCD-1359514569161656602 lang Python3--1061871659162409793
+210316 203807.934|INFO|Thread-15|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-8429160435976912404 id JudgementRecord-3426615869320829829
+210316 203807.934|INFO|Thread-15|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210316 203808.643|INFO|Thread-15|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #768 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 203809.107|INFO|Thread-14|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #764 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 205850.512|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for What is the Median  Python3 file: C:\Users\user\Desktop\algorithm\HW2_0316\What-is-the-Median.py
+210316 205850.514|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #4 TEAM27 @ site 1 -> SERVER0 @ site 1
+210316 205850.514|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #4 TEAM27 @ site 1 -> SERVER0 @ site 1
+210316 205850.790|INFO|Thread-17|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1248 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 205850.791|INFO|Thread-17|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1248 ) recieveObject
+210316 205850.791|INFO|Thread-17|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 205850.791|INFO|Thread-17|dumpPacket|    To: TEAM27 @ site 1
+210316 205850.791|INFO|Thread-17|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 153 QUEUED_FOR_COMPUTER_JUDGEMENT 58 min 3537317ms from TEAM27 @ site 1 id Run--3678125932837747939 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 205850.791|INFO|Thread-17|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1248 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 205850.791|INFO|Thread-17|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1248 ) handlePacket
+210316 205850.791|INFO|Thread-17|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 205850.791|INFO|Thread-17|dumpPacket|    To: TEAM27 @ site 1
+210316 205850.791|INFO|Thread-17|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 153 QUEUED_FOR_COMPUTER_JUDGEMENT 58 min 3537317ms from TEAM27 @ site 1 id Run--3678125932837747939 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 205851.870|INFO|Thread-18|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1252 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 205851.870|INFO|Thread-18|dumpPacket|Packet RUN_JUDGEMENT (Seq #1252 ) recieveObject
+210316 205851.870|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 205851.870|INFO|Thread-18|dumpPacket|    To: TEAM27 @ site 1
+210316 205851.871|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 153 JUDGED 58 min 3537317ms from TEAM27 @ site 1 id Run--3678125932837747939 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 205851.871|INFO|Thread-18|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-5119524333475255401 id JudgementRecord-667455121734862601
+210316 205851.871|INFO|Thread-18|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210316 205851.871|INFO|Thread-18|info|handlePacket start Packet[RUN_JUDGEMENT] #1252 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 205851.871|INFO|Thread-18|dumpPacket|Packet RUN_JUDGEMENT (Seq #1252 ) handlePacket
+210316 205851.871|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 205851.871|INFO|Thread-18|dumpPacket|    To: TEAM27 @ site 1
+210316 205851.871|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 153 JUDGED 58 min 3537317ms from TEAM27 @ site 1 id Run--3678125932837747939 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 205851.871|INFO|Thread-18|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-5119524333475255401 id JudgementRecord-667455121734862601
+210316 205851.872|INFO|Thread-18|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210316 205859.274|INFO|Thread-18|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1252 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 205901.370|INFO|Thread-17|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1248 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210048.251|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for What is the Median  Python3 file: C:\Users\user\Desktop\algorithm\HW2_0316\What-is-the-Median.py
+210316 210048.252|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #5 TEAM27 @ site 1 -> SERVER0 @ site 1
+210316 210048.253|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #5 TEAM27 @ site 1 -> SERVER0 @ site 1
+210316 210048.512|INFO|Thread-20|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1281 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210048.512|INFO|Thread-20|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1281 ) recieveObject
+210316 210048.512|INFO|Thread-20|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 210048.512|INFO|Thread-20|dumpPacket|    To: TEAM27 @ site 1
+210316 210048.512|INFO|Thread-20|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 158 QUEUED_FOR_COMPUTER_JUDGEMENT 60 min 3655031ms from TEAM27 @ site 1 id Run--3820889473433089585 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 210048.513|INFO|Thread-20|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1281 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210048.513|INFO|Thread-20|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1281 ) handlePacket
+210316 210048.513|INFO|Thread-20|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 210048.513|INFO|Thread-20|dumpPacket|    To: TEAM27 @ site 1
+210316 210048.513|INFO|Thread-20|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 158 QUEUED_FOR_COMPUTER_JUDGEMENT 60 min 3655031ms from TEAM27 @ site 1 id Run--3820889473433089585 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 210050.034|INFO|Thread-21|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1285 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210050.034|INFO|Thread-21|dumpPacket|Packet RUN_JUDGEMENT (Seq #1285 ) recieveObject
+210316 210050.034|INFO|Thread-21|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 210050.034|INFO|Thread-21|dumpPacket|    To: TEAM27 @ site 1
+210316 210050.034|INFO|Thread-21|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 158 JUDGED 60 min 3655031ms from TEAM27 @ site 1 id Run--3820889473433089585 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 210050.034|INFO|Thread-21|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-5119524333475255401 id JudgementRecord--5310806510930303405
+210316 210050.034|INFO|Thread-21|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210316 210050.035|INFO|Thread-21|info|handlePacket start Packet[RUN_JUDGEMENT] #1285 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210050.035|INFO|Thread-21|dumpPacket|Packet RUN_JUDGEMENT (Seq #1285 ) handlePacket
+210316 210050.035|INFO|Thread-21|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 210050.035|INFO|Thread-21|dumpPacket|    To: TEAM27 @ site 1
+210316 210050.035|INFO|Thread-21|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 158 JUDGED 60 min 3655031ms from TEAM27 @ site 1 id Run--3820889473433089585 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 210050.035|INFO|Thread-21|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-5119524333475255401 id JudgementRecord--5310806510930303405
+210316 210050.035|INFO|Thread-21|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210316 210050.888|INFO|Thread-21|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1285 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210051.328|INFO|Thread-20|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1281 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210056.145|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for What is the Median  Python3 file: C:\Users\user\Desktop\algorithm\HW2_0316\What-is-the-Median.py
+210316 210056.146|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #6 TEAM27 @ site 1 -> SERVER0 @ site 1
+210316 210056.146|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #6 TEAM27 @ site 1 -> SERVER0 @ site 1
+210316 210056.424|INFO|Thread-23|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1293 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210056.424|INFO|Thread-23|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1293 ) recieveObject
+210316 210056.424|INFO|Thread-23|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 210056.424|INFO|Thread-23|dumpPacket|    To: TEAM27 @ site 1
+210316 210056.425|INFO|Thread-23|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 160 QUEUED_FOR_COMPUTER_JUDGEMENT 61 min 3662933ms from TEAM27 @ site 1 id Run-1527675745933980184 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 210056.425|INFO|Thread-23|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1293 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210056.425|INFO|Thread-23|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1293 ) handlePacket
+210316 210056.425|INFO|Thread-23|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 210056.425|INFO|Thread-23|dumpPacket|    To: TEAM27 @ site 1
+210316 210056.425|INFO|Thread-23|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 160 QUEUED_FOR_COMPUTER_JUDGEMENT 61 min 3662933ms from TEAM27 @ site 1 id Run-1527675745933980184 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 210058.308|INFO|Thread-24|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1297 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210058.309|INFO|Thread-24|dumpPacket|Packet RUN_JUDGEMENT (Seq #1297 ) recieveObject
+210316 210058.309|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 210058.309|INFO|Thread-24|dumpPacket|    To: TEAM27 @ site 1
+210316 210058.309|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 160 JUDGED 61 min 3662933ms from TEAM27 @ site 1 id Run-1527675745933980184 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 210058.309|INFO|Thread-24|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-5119524333475255401 id JudgementRecord--2899239447343844927
+210316 210058.309|INFO|Thread-24|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210316 210058.310|INFO|Thread-24|info|handlePacket start Packet[RUN_JUDGEMENT] #1297 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210058.310|INFO|Thread-24|dumpPacket|Packet RUN_JUDGEMENT (Seq #1297 ) handlePacket
+210316 210058.310|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 210058.310|INFO|Thread-24|dumpPacket|    To: TEAM27 @ site 1
+210316 210058.310|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 160 JUDGED 61 min 3662933ms from TEAM27 @ site 1 id Run-1527675745933980184 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 210058.310|INFO|Thread-24|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-5119524333475255401 id JudgementRecord--2899239447343844927
+210316 210058.310|INFO|Thread-24|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210316 210100.929|INFO|Thread-24|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1297 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210114.208|INFO|Thread-23|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1293 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210414.568|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for What is the Median  Python3 file: C:\Users\user\Desktop\algorithm\HW2_0316\What-is-the-Median.py
+210316 210414.569|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #7 TEAM27 @ site 1 -> SERVER0 @ site 1
+210316 210414.570|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #7 TEAM27 @ site 1 -> SERVER0 @ site 1
+210316 210414.822|INFO|Thread-26|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1400 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210414.822|INFO|Thread-26|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1400 ) recieveObject
+210316 210414.822|INFO|Thread-26|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 210414.822|INFO|Thread-26|dumpPacket|    To: TEAM27 @ site 1
+210316 210414.823|INFO|Thread-26|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 174 QUEUED_FOR_COMPUTER_JUDGEMENT 64 min 3861360ms from TEAM27 @ site 1 id Run-6386162061904690330 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 210414.823|INFO|Thread-26|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1400 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210414.823|INFO|Thread-26|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1400 ) handlePacket
+210316 210414.823|INFO|Thread-26|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 210414.823|INFO|Thread-26|dumpPacket|    To: TEAM27 @ site 1
+210316 210414.823|INFO|Thread-26|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 174 QUEUED_FOR_COMPUTER_JUDGEMENT 64 min 3861360ms from TEAM27 @ site 1 id Run-6386162061904690330 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 210416.672|INFO|Thread-27|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1406 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210416.672|INFO|Thread-27|dumpPacket|Packet RUN_JUDGEMENT (Seq #1406 ) recieveObject
+210316 210416.672|INFO|Thread-27|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 210416.672|INFO|Thread-27|dumpPacket|    To: TEAM27 @ site 1
+210316 210416.672|INFO|Thread-27|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 174 JUDGED 64 min 3861360ms from TEAM27 @ site 1 id Run-6386162061904690330 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 210416.672|INFO|Thread-27|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-5119524333475255401 id JudgementRecord-7501422583290293392
+210316 210416.673|INFO|Thread-27|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210316 210416.673|INFO|Thread-27|info|handlePacket start Packet[RUN_JUDGEMENT] #1406 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210416.673|INFO|Thread-27|dumpPacket|Packet RUN_JUDGEMENT (Seq #1406 ) handlePacket
+210316 210416.673|INFO|Thread-27|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 210416.673|INFO|Thread-27|dumpPacket|    To: TEAM27 @ site 1
+210316 210416.673|INFO|Thread-27|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 174 JUDGED 64 min 3861360ms from TEAM27 @ site 1 id Run-6386162061904690330 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 210416.673|INFO|Thread-27|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-5119524333475255401 id JudgementRecord-7501422583290293392
+210316 210416.673|INFO|Thread-27|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210316 210420.808|INFO|Thread-27|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1406 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210421.599|INFO|Thread-26|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1400 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 210647.106|INFO|Thread-28|info| receiveObject(S) start got Packet[UPDATE_SETTING] #1445 SERVER0 @ site 1 -> SERVER0 @ site 0
+210316 210647.106|INFO|Thread-28|dumpPacket|Packet UPDATE_SETTING (Seq #1445 ) recieveObject
+210316 210647.106|INFO|Thread-28|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 210647.107|INFO|Thread-28|dumpPacket|    To: SERVER0 @ site 0
+210316 210647.107|INFO|Thread-28|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem What is the Median 
+210316 210647.107|INFO|Thread-28|info|handlePacket start Packet[UPDATE_SETTING] #1445 SERVER0 @ site 1 -> SERVER0 @ site 0
+210316 210647.107|INFO|Thread-28|dumpPacket|Packet UPDATE_SETTING (Seq #1445 ) handlePacket
+210316 210647.107|INFO|Thread-28|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 210647.107|INFO|Thread-28|dumpPacket|    To: SERVER0 @ site 0
+210316 210647.107|INFO|Thread-28|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem What is the Median 
+210316 210647.109|INFO|Thread-28|info|handlePacket end Packet[UPDATE_SETTING] #1445 SERVER0 @ site 1 -> SERVER0 @ site 0
+210316 210647.109|INFO|Thread-28|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #1445 SERVER0 @ site 1 -> SERVER0 @ site 0
+210316 211156.087|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for What is the Median  Python3 file: C:\Users\user\Desktop\algorithm\HW2_0316\What-is-the-Median.py
+210316 211156.088|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #8 TEAM27 @ site 1 -> SERVER0 @ site 1
+210316 211156.089|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #8 TEAM27 @ site 1 -> SERVER0 @ site 1
+210316 211156.333|INFO|Thread-30|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1561 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 211156.333|INFO|Thread-30|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1561 ) recieveObject
+210316 211156.334|INFO|Thread-30|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 211156.334|INFO|Thread-30|dumpPacket|    To: TEAM27 @ site 1
+210316 211156.334|INFO|Thread-30|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 193 QUEUED_FOR_COMPUTER_JUDGEMENT 72 min 4322859ms from TEAM27 @ site 1 id Run-1793464188730695500 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 211156.334|INFO|Thread-30|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1561 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 211156.334|INFO|Thread-30|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1561 ) handlePacket
+210316 211156.334|INFO|Thread-30|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 211156.334|INFO|Thread-30|dumpPacket|    To: TEAM27 @ site 1
+210316 211156.334|INFO|Thread-30|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 193 QUEUED_FOR_COMPUTER_JUDGEMENT 72 min 4322859ms from TEAM27 @ site 1 id Run-1793464188730695500 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 211158.056|INFO|Thread-31|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1565 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 211158.056|INFO|Thread-31|dumpPacket|Packet RUN_JUDGEMENT (Seq #1565 ) recieveObject
+210316 211158.056|INFO|Thread-31|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 211158.056|INFO|Thread-31|dumpPacket|    To: TEAM27 @ site 1
+210316 211158.056|INFO|Thread-31|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 193 JUDGED 72 min 4322859ms from TEAM27 @ site 1 id Run-1793464188730695500 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 211158.056|INFO|Thread-31|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-8429160435976912404 id JudgementRecord--7941605167079111674
+210316 211158.056|INFO|Thread-31|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210316 211158.056|INFO|Thread-31|info|handlePacket start Packet[RUN_JUDGEMENT] #1565 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 211158.056|INFO|Thread-31|dumpPacket|Packet RUN_JUDGEMENT (Seq #1565 ) handlePacket
+210316 211158.056|INFO|Thread-31|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-1992578780576336261)
+210316 211158.056|INFO|Thread-31|dumpPacket|    To: TEAM27 @ site 1
+210316 211158.057|INFO|Thread-31|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 193 JUDGED 72 min 4322859ms from TEAM27 @ site 1 id Run-1793464188730695500 problem What is the Median -7123232176856552201 lang Python3--1061871659162409793
+210316 211158.057|INFO|Thread-31|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-8429160435976912404 id JudgementRecord--7941605167079111674
+210316 211158.057|INFO|Thread-31|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210316 211158.927|INFO|Thread-31|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1565 SERVER0 @ site 1 -> TEAM27 @ site 1
+210316 211159.381|INFO|Thread-30|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1561 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 200700.317|CONFIG|Thread-2|setFileHandlers|Now logging to C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin\logs directory.
+210323 200700.317|INFO|Thread-2|info|
+210323 200700.317|INFO|Thread-2|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 15.0.2 build 3850 Windows 10 10.0 (amd64) 
+210323 200700.317|INFO|Thread-2|info|Login: team27 (aka team27)
+210323 200700.318|INFO|Thread-2|startLog|Working directory is C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin
+210323 200700.318|INFO|Thread-2|startLog|Process id is 2576@MSI
+210323 200700.318|INFO|Thread-2|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+210323 200700.329|INFO|Thread-2|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+210323 200700.510|INFO|Thread-2|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+210323 200700.510|INFO|Thread-2|info|handlePacket end Packet[LOGIN_SUCCESS] #77 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 200700.511|INFO|Thread-2|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #77 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 201842.700|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for perfect number Python3 file: C:\Users\user\Desktop\algorithm\HW3_0323\perfect_number.py
+210323 201842.702|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210323 201842.702|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210323 201842.783|INFO|Thread-4|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #239 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 201842.784|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #239 ) recieveObject
+210323 201842.784|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 201842.784|INFO|Thread-4|dumpPacket|    To: TEAM27 @ site 1
+210323 201842.784|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 29 QUEUED_FOR_COMPUTER_JUDGEMENT 18 min 1117429ms from TEAM27 @ site 1 id Run--3939847392729098169 problem perfect number--5824454716202917407 lang Python3--1617461850775078683
+210323 201842.784|INFO|Thread-4|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #239 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 201842.784|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #239 ) handlePacket
+210323 201842.785|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 201842.785|INFO|Thread-4|dumpPacket|    To: TEAM27 @ site 1
+210323 201842.785|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 29 QUEUED_FOR_COMPUTER_JUDGEMENT 18 min 1117429ms from TEAM27 @ site 1 id Run--3939847392729098169 problem perfect number--5824454716202917407 lang Python3--1617461850775078683
+210323 201848.148|INFO|Thread-5|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #243 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 201848.148|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #243 ) recieveObject
+210323 201848.148|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 201848.149|INFO|Thread-5|dumpPacket|    To: TEAM27 @ site 1
+210323 201848.149|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 29 JUDGED 18 min 1117429ms from TEAM27 @ site 1 id Run--3939847392729098169 problem perfect number--5824454716202917407 lang Python3--1617461850775078683
+210323 201848.149|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer--7363375616121391403 id JudgementRecord--3875564185409894013
+210323 201848.149|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210323 201848.149|INFO|Thread-5|info|handlePacket start Packet[RUN_JUDGEMENT] #243 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 201848.149|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #243 ) handlePacket
+210323 201848.149|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 201848.150|INFO|Thread-5|dumpPacket|    To: TEAM27 @ site 1
+210323 201848.150|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 29 JUDGED 18 min 1117429ms from TEAM27 @ site 1 id Run--3939847392729098169 problem perfect number--5824454716202917407 lang Python3--1617461850775078683
+210323 201848.150|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer--7363375616121391403 id JudgementRecord--3875564185409894013
+210323 201848.150|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210323 201851.051|INFO|Thread-5|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #243 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 201852.244|INFO|Thread-4|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #239 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 202059.268|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for perfect number Python3 file: C:\Users\user\Desktop\algorithm\HW3_0323\perfect_number.py
+210323 202059.269|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM27 @ site 1 -> SERVER0 @ site 1
+210323 202059.269|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM27 @ site 1 -> SERVER0 @ site 1
+210323 202100.528|INFO|Thread-7|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #275 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 202100.528|INFO|Thread-7|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #275 ) recieveObject
+210323 202100.528|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 202100.528|INFO|Thread-7|dumpPacket|    To: TEAM27 @ site 1
+210323 202100.529|INFO|Thread-7|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 35 QUEUED_FOR_COMPUTER_JUDGEMENT 20 min 1255194ms from TEAM27 @ site 1 id Run--2008448566194283348 problem perfect number--5824454716202917407 lang Python3--1617461850775078683
+210323 202100.529|INFO|Thread-7|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #275 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 202100.529|INFO|Thread-7|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #275 ) handlePacket
+210323 202100.529|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 202100.529|INFO|Thread-7|dumpPacket|    To: TEAM27 @ site 1
+210323 202100.529|INFO|Thread-7|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 35 QUEUED_FOR_COMPUTER_JUDGEMENT 20 min 1255194ms from TEAM27 @ site 1 id Run--2008448566194283348 problem perfect number--5824454716202917407 lang Python3--1617461850775078683
+210323 202158.677|INFO|Thread-0|info|connectionDropped: shutting down TEAM27 @ site 1
+210323 202222.635|CONFIG|Thread-2|setFileHandlers|Now logging to C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin\logs directory.
+210323 202222.635|INFO|Thread-2|info|
+210323 202222.635|INFO|Thread-2|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 15.0.2 build 3850 Windows 10 10.0 (amd64) 
+210323 202222.635|INFO|Thread-2|info|Login: team27 (aka team27)
+210323 202222.636|INFO|Thread-2|startLog|Working directory is C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin
+210323 202222.636|INFO|Thread-2|startLog|Process id is 15340@MSI
+210323 202222.636|INFO|Thread-2|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+210323 202222.641|INFO|Thread-2|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+210323 202222.779|INFO|Thread-2|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+210323 202222.780|INFO|Thread-2|info|handlePacket end Packet[LOGIN_SUCCESS] #302 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 202222.781|INFO|Thread-2|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #302 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 202241.676|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for perfect number Python3 file: C:\Users\user\Desktop\algorithm\HW3_0323\perfect_number.py
+210323 202241.677|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210323 202241.677|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210323 202241.903|INFO|Thread-4|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #306 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 202241.903|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #306 ) recieveObject
+210323 202241.903|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 202241.904|INFO|Thread-4|dumpPacket|    To: TEAM27 @ site 1
+210323 202241.904|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 39 QUEUED_FOR_COMPUTER_JUDGEMENT 22 min 1356497ms from TEAM27 @ site 1 id Run-3340135395756970451 problem perfect number--5824454716202917407 lang Python3--1617461850775078683
+210323 202241.904|INFO|Thread-4|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #306 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 202241.904|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #306 ) handlePacket
+210323 202241.904|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 202241.904|INFO|Thread-4|dumpPacket|    To: TEAM27 @ site 1
+210323 202241.905|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 39 QUEUED_FOR_COMPUTER_JUDGEMENT 22 min 1356497ms from TEAM27 @ site 1 id Run-3340135395756970451 problem perfect number--5824454716202917407 lang Python3--1617461850775078683
+210323 202247.936|INFO|Thread-5|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #314 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 202247.936|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #314 ) recieveObject
+210323 202247.937|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 202247.937|INFO|Thread-5|dumpPacket|    To: TEAM27 @ site 1
+210323 202247.937|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 39 JUDGED 22 min 1356497ms from TEAM27 @ site 1 id Run-3340135395756970451 problem perfect number--5824454716202917407 lang Python3--1617461850775078683
+210323 202247.937|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-4242606006991266937 id JudgementRecord--8567724133182193075
+210323 202247.937|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210323 202247.937|INFO|Thread-5|info|handlePacket start Packet[RUN_JUDGEMENT] #314 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 202247.937|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #314 ) handlePacket
+210323 202247.937|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 202247.938|INFO|Thread-5|dumpPacket|    To: TEAM27 @ site 1
+210323 202247.938|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 39 JUDGED 22 min 1356497ms from TEAM27 @ site 1 id Run-3340135395756970451 problem perfect number--5824454716202917407 lang Python3--1617461850775078683
+210323 202247.938|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-4242606006991266937 id JudgementRecord--8567724133182193075
+210323 202247.938|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210323 202249.682|INFO|Thread-5|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #314 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 202250.467|INFO|Thread-4|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #306 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 203206.986|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for add the page Python3 file: C:\Users\user\Desktop\algorithm\HW3_0323\add_the_page.py
+210323 203206.993|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM27 @ site 1 -> SERVER0 @ site 1
+210323 203206.993|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM27 @ site 1 -> SERVER0 @ site 1
+210323 203207.209|INFO|Thread-7|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #431 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 203207.209|INFO|Thread-7|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #431 ) recieveObject
+210323 203207.209|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 203207.210|INFO|Thread-7|dumpPacket|    To: TEAM27 @ site 1
+210323 203207.210|INFO|Thread-7|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 57 QUEUED_FOR_COMPUTER_JUDGEMENT 32 min 1921775ms from TEAM27 @ site 1 id Run--612017139712552552 problem add the page--6046903156465517706 lang Python3--1617461850775078683
+210323 203207.210|INFO|Thread-7|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #431 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 203207.210|INFO|Thread-7|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #431 ) handlePacket
+210323 203207.210|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 203207.211|INFO|Thread-7|dumpPacket|    To: TEAM27 @ site 1
+210323 203207.211|INFO|Thread-7|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 57 QUEUED_FOR_COMPUTER_JUDGEMENT 32 min 1921775ms from TEAM27 @ site 1 id Run--612017139712552552 problem add the page--6046903156465517706 lang Python3--1617461850775078683
+210323 203208.731|INFO|Thread-8|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #435 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 203208.731|INFO|Thread-8|dumpPacket|Packet RUN_JUDGEMENT (Seq #435 ) recieveObject
+210323 203208.731|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 203208.731|INFO|Thread-8|dumpPacket|    To: TEAM27 @ site 1
+210323 203208.731|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 57 JUDGED 32 min 1921775ms from TEAM27 @ site 1 id Run--612017139712552552 problem add the page--6046903156465517706 lang Python3--1617461850775078683
+210323 203208.732|INFO|Thread-8|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-4242606006991266937 id JudgementRecord-1749806091471215848
+210323 203208.732|INFO|Thread-8|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210323 203208.732|INFO|Thread-8|info|handlePacket start Packet[RUN_JUDGEMENT] #435 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 203208.732|INFO|Thread-8|dumpPacket|Packet RUN_JUDGEMENT (Seq #435 ) handlePacket
+210323 203208.733|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 203208.733|INFO|Thread-8|dumpPacket|    To: TEAM27 @ site 1
+210323 203208.733|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 57 JUDGED 32 min 1921775ms from TEAM27 @ site 1 id Run--612017139712552552 problem add the page--6046903156465517706 lang Python3--1617461850775078683
+210323 203208.733|INFO|Thread-8|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-4242606006991266937 id JudgementRecord-1749806091471215848
+210323 203208.733|INFO|Thread-8|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210323 203209.602|INFO|Thread-8|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #435 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 203210.099|INFO|Thread-7|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #431 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 205121.843|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for uglynumber Python3 file: C:\Users\user\Desktop\algorithm\HW3_0323\ugly_number.py
+210323 205121.844|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #4 TEAM27 @ site 1 -> SERVER0 @ site 1
+210323 205121.844|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #4 TEAM27 @ site 1 -> SERVER0 @ site 1
+210323 205122.078|INFO|Thread-10|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #652 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 205122.078|INFO|Thread-10|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #652 ) recieveObject
+210323 205122.079|INFO|Thread-10|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 205122.079|INFO|Thread-10|dumpPacket|    To: TEAM27 @ site 1
+210323 205122.079|INFO|Thread-10|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 89 QUEUED_FOR_COMPUTER_JUDGEMENT 51 min 3076607ms from TEAM27 @ site 1 id Run-5474202206176769370 problem uglynumber-3299632894622249891 lang Python3--1617461850775078683
+210323 205122.079|INFO|Thread-10|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #652 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 205122.079|INFO|Thread-10|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #652 ) handlePacket
+210323 205122.079|INFO|Thread-10|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 205122.079|INFO|Thread-10|dumpPacket|    To: TEAM27 @ site 1
+210323 205122.080|INFO|Thread-10|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 89 QUEUED_FOR_COMPUTER_JUDGEMENT 51 min 3076607ms from TEAM27 @ site 1 id Run-5474202206176769370 problem uglynumber-3299632894622249891 lang Python3--1617461850775078683
+210323 205134.795|INFO|Thread-11|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #657 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 205134.795|INFO|Thread-11|dumpPacket|Packet RUN_JUDGEMENT (Seq #657 ) recieveObject
+210323 205134.795|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 205134.795|INFO|Thread-11|dumpPacket|    To: TEAM27 @ site 1
+210323 205134.795|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 89 JUDGED 51 min 3076607ms from TEAM27 @ site 1 id Run-5474202206176769370 problem uglynumber-3299632894622249891 lang Python3--1617461850775078683
+210323 205134.795|INFO|Thread-11|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-4242606006991266937 id JudgementRecord--691660699528012145
+210323 205134.796|INFO|Thread-11|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210323 205134.796|INFO|Thread-11|info|handlePacket start Packet[RUN_JUDGEMENT] #657 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 205134.796|INFO|Thread-11|dumpPacket|Packet RUN_JUDGEMENT (Seq #657 ) handlePacket
+210323 205134.796|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-6968304931590435838)
+210323 205134.796|INFO|Thread-11|dumpPacket|    To: TEAM27 @ site 1
+210323 205134.796|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 89 JUDGED 51 min 3076607ms from TEAM27 @ site 1 id Run-5474202206176769370 problem uglynumber-3299632894622249891 lang Python3--1617461850775078683
+210323 205134.796|INFO|Thread-11|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-4242606006991266937 id JudgementRecord--691660699528012145
+210323 205134.796|INFO|Thread-11|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210323 205135.779|INFO|Thread-11|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #657 SERVER0 @ site 1 -> TEAM27 @ site 1
+210323 205136.275|INFO|Thread-10|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #652 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 184148.277|CONFIG|Thread-6|setFileHandlers|Now logging to C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin\logs directory.
+210414 184148.277|INFO|Thread-6|info|
+210414 184148.277|INFO|Thread-6|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 15.0.2 build 3850 Windows 10 10.0 (amd64) 
+210414 184148.277|INFO|Thread-6|info|Login: team27 (aka team27)
+210414 184148.278|INFO|Thread-6|startLog|Working directory is C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin
+210414 184148.278|INFO|Thread-6|startLog|Process id is 10984@MSI
+210414 184148.278|INFO|Thread-6|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+210414 184148.293|INFO|Thread-6|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+210414 184148.470|INFO|Thread-6|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+210414 184148.470|INFO|Thread-6|info|handlePacket end Packet[LOGIN_SUCCESS] #1766 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 184148.471|INFO|Thread-6|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #1766 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 184217.961|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Insertion sort Python3 file: C:\Users\user\Desktop\algorithm\HW4_0414\Insertion_new.py
+210414 184217.967|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #4 TEAM27 @ site 1 -> SERVER0 @ site 1
+210414 184217.968|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #4 TEAM27 @ site 1 -> SERVER0 @ site 1
+210414 184218.156|INFO|Thread-8|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1768 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 184218.156|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1768 ) recieveObject
+210414 184218.156|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 184218.156|INFO|Thread-8|dumpPacket|    To: TEAM27 @ site 1
+210414 184218.156|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 219 QUEUED_FOR_COMPUTER_JUDGEMENT 1362 min 81756519ms from TEAM27 @ site 1 id Run--4508865370358753435 problem Insertion sort--4292923687403894492 lang Python3--1212783992530221853
+210414 184218.156|INFO|Thread-8|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1768 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 184218.157|INFO|Thread-8|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1768 ) handlePacket
+210414 184218.157|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 184218.157|INFO|Thread-8|dumpPacket|    To: TEAM27 @ site 1
+210414 184218.157|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 219 QUEUED_FOR_COMPUTER_JUDGEMENT 1362 min 81756519ms from TEAM27 @ site 1 id Run--4508865370358753435 problem Insertion sort--4292923687403894492 lang Python3--1212783992530221853
+210414 184219.731|INFO|Thread-9|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1772 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 184219.731|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT (Seq #1772 ) recieveObject
+210414 184219.731|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 184219.731|INFO|Thread-9|dumpPacket|    To: TEAM27 @ site 1
+210414 184219.732|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 219 JUDGED 1362 min 81756519ms from TEAM27 @ site 1 id Run--4508865370358753435 problem Insertion sort--4292923687403894492 lang Python3--1212783992530221853
+210414 184219.732|INFO|Thread-9|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes-7050215675766178968 id JudgementRecord--8866009816110227603
+210414 184219.732|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210414 184219.732|INFO|Thread-9|info|handlePacket start Packet[RUN_JUDGEMENT] #1772 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 184219.732|INFO|Thread-9|dumpPacket|Packet RUN_JUDGEMENT (Seq #1772 ) handlePacket
+210414 184219.732|INFO|Thread-9|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 184219.732|INFO|Thread-9|dumpPacket|    To: TEAM27 @ site 1
+210414 184219.733|INFO|Thread-9|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 219 JUDGED 1362 min 81756519ms from TEAM27 @ site 1 id Run--4508865370358753435 problem Insertion sort--4292923687403894492 lang Python3--1212783992530221853
+210414 184219.733|INFO|Thread-9|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes-7050215675766178968 id JudgementRecord--8866009816110227603
+210414 184219.733|INFO|Thread-9|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210414 184221.641|INFO|Thread-9|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1772 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 184222.200|INFO|Thread-8|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1768 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 184956.843|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for AGE_Sort Python3 file: C:\Users\user\Desktop\algorithm\HW4_0414\age_sort.py
+210414 184956.848|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #5 TEAM27 @ site 1 -> SERVER0 @ site 1
+210414 184956.849|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #5 TEAM27 @ site 1 -> SERVER0 @ site 1
+210414 184956.943|INFO|Thread-11|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1795 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 184956.944|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1795 ) recieveObject
+210414 184956.944|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 184956.944|INFO|Thread-11|dumpPacket|    To: TEAM27 @ site 1
+210414 184956.944|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 222 QUEUED_FOR_COMPUTER_JUDGEMENT 1370 min 82215390ms from TEAM27 @ site 1 id Run-3113549158073377210 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 184956.944|INFO|Thread-11|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1795 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 184956.944|INFO|Thread-11|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1795 ) handlePacket
+210414 184956.944|INFO|Thread-11|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 184956.944|INFO|Thread-11|dumpPacket|    To: TEAM27 @ site 1
+210414 184956.945|INFO|Thread-11|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 222 QUEUED_FOR_COMPUTER_JUDGEMENT 1370 min 82215390ms from TEAM27 @ site 1 id Run-3113549158073377210 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 184958.581|INFO|Thread-12|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1799 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 184958.582|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #1799 ) recieveObject
+210414 184958.582|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 184958.582|INFO|Thread-12|dumpPacket|    To: TEAM27 @ site 1
+210414 184958.582|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 222 JUDGED 1370 min 82215390ms from TEAM27 @ site 1 id Run-3113549158073377210 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 184958.582|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--6126668806340889093
+210414 184958.582|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210414 184958.583|INFO|Thread-12|info|handlePacket start Packet[RUN_JUDGEMENT] #1799 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 184958.583|INFO|Thread-12|dumpPacket|Packet RUN_JUDGEMENT (Seq #1799 ) handlePacket
+210414 184958.583|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 184958.583|INFO|Thread-12|dumpPacket|    To: TEAM27 @ site 1
+210414 184958.583|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 222 JUDGED 1370 min 82215390ms from TEAM27 @ site 1 id Run-3113549158073377210 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 184958.583|INFO|Thread-12|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--6126668806340889093
+210414 184958.583|INFO|Thread-12|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210414 185008.583|INFO|Thread-12|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1799 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185043.167|INFO|Thread-11|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1795 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185054.152|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for AGE_Sort Python3 file: C:\Users\user\Desktop\algorithm\HW4_0414\age_sort.py
+210414 185054.153|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #6 TEAM27 @ site 1 -> SERVER0 @ site 1
+210414 185054.153|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #6 TEAM27 @ site 1 -> SERVER0 @ site 1
+210414 185054.227|INFO|Thread-14|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1801 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185054.227|INFO|Thread-14|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1801 ) recieveObject
+210414 185054.227|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 185054.227|INFO|Thread-14|dumpPacket|    To: TEAM27 @ site 1
+210414 185054.227|INFO|Thread-14|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 223 QUEUED_FOR_COMPUTER_JUDGEMENT 1371 min 82272691ms from TEAM27 @ site 1 id Run--6391117909681371967 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 185054.228|INFO|Thread-14|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1801 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185054.228|INFO|Thread-14|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1801 ) handlePacket
+210414 185054.228|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 185054.228|INFO|Thread-14|dumpPacket|    To: TEAM27 @ site 1
+210414 185054.228|INFO|Thread-14|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 223 QUEUED_FOR_COMPUTER_JUDGEMENT 1371 min 82272691ms from TEAM27 @ site 1 id Run--6391117909681371967 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 185055.525|INFO|Thread-15|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1805 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185055.525|INFO|Thread-15|dumpPacket|Packet RUN_JUDGEMENT (Seq #1805 ) recieveObject
+210414 185055.525|INFO|Thread-15|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 185055.525|INFO|Thread-15|dumpPacket|    To: TEAM27 @ site 1
+210414 185055.525|INFO|Thread-15|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 223 JUDGED 1371 min 82272691ms from TEAM27 @ site 1 id Run--6391117909681371967 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 185055.525|INFO|Thread-15|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord-2473996430440427142
+210414 185055.525|INFO|Thread-15|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210414 185055.526|INFO|Thread-15|info|handlePacket start Packet[RUN_JUDGEMENT] #1805 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185055.526|INFO|Thread-15|dumpPacket|Packet RUN_JUDGEMENT (Seq #1805 ) handlePacket
+210414 185055.526|INFO|Thread-15|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 185055.526|INFO|Thread-15|dumpPacket|    To: TEAM27 @ site 1
+210414 185055.526|INFO|Thread-15|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 223 JUDGED 1371 min 82272691ms from TEAM27 @ site 1 id Run--6391117909681371967 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 185055.526|INFO|Thread-15|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord-2473996430440427142
+210414 185055.526|INFO|Thread-15|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210414 185059.120|INFO|Thread-15|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1805 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185100.350|INFO|Thread-14|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1801 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185245.814|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for AGE_Sort Python3 file: C:\Users\user\Desktop\algorithm\HW4_0414\age_sort.py
+210414 185245.815|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #7 TEAM27 @ site 1 -> SERVER0 @ site 1
+210414 185245.816|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #7 TEAM27 @ site 1 -> SERVER0 @ site 1
+210414 185245.900|INFO|Thread-17|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1807 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185245.901|INFO|Thread-17|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1807 ) recieveObject
+210414 185245.901|INFO|Thread-17|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 185245.901|INFO|Thread-17|dumpPacket|    To: TEAM27 @ site 1
+210414 185245.901|INFO|Thread-17|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 224 QUEUED_FOR_COMPUTER_JUDGEMENT 1373 min 82384344ms from TEAM27 @ site 1 id Run--78695426964207458 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 185245.902|INFO|Thread-17|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1807 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185245.902|INFO|Thread-17|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1807 ) handlePacket
+210414 185245.902|INFO|Thread-17|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 185245.902|INFO|Thread-17|dumpPacket|    To: TEAM27 @ site 1
+210414 185245.902|INFO|Thread-17|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 224 QUEUED_FOR_COMPUTER_JUDGEMENT 1373 min 82384344ms from TEAM27 @ site 1 id Run--78695426964207458 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 185246.751|INFO|Thread-17|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1807 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185247.241|INFO|Thread-18|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1811 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185247.241|INFO|Thread-18|dumpPacket|Packet RUN_JUDGEMENT (Seq #1811 ) recieveObject
+210414 185247.241|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 185247.241|INFO|Thread-18|dumpPacket|    To: TEAM27 @ site 1
+210414 185247.241|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 224 JUDGED 1373 min 82384344ms from TEAM27 @ site 1 id Run--78695426964207458 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 185247.241|INFO|Thread-18|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord-5264592216965674880
+210414 185247.241|INFO|Thread-18|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210414 185247.242|INFO|Thread-18|info|handlePacket start Packet[RUN_JUDGEMENT] #1811 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185247.242|INFO|Thread-18|dumpPacket|Packet RUN_JUDGEMENT (Seq #1811 ) handlePacket
+210414 185247.242|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 185247.242|INFO|Thread-18|dumpPacket|    To: TEAM27 @ site 1
+210414 185247.242|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 224 JUDGED 1373 min 82384344ms from TEAM27 @ site 1 id Run--78695426964207458 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 185247.242|INFO|Thread-18|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord-5264592216965674880
+210414 185247.242|INFO|Thread-18|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210414 185249.679|INFO|Thread-18|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1811 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185327.783|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for AGE_Sort Python3 file: C:\Users\user\Desktop\algorithm\HW4_0414\age_sort.py
+210414 185327.786|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #8 TEAM27 @ site 1 -> SERVER0 @ site 1
+210414 185327.786|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #8 TEAM27 @ site 1 -> SERVER0 @ site 1
+210414 185327.870|INFO|Thread-20|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1813 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185327.870|INFO|Thread-20|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1813 ) recieveObject
+210414 185327.870|INFO|Thread-20|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 185327.870|INFO|Thread-20|dumpPacket|    To: TEAM27 @ site 1
+210414 185327.870|INFO|Thread-20|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 225 QUEUED_FOR_COMPUTER_JUDGEMENT 1373 min 82426311ms from TEAM27 @ site 1 id Run-8461925594517788591 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 185327.871|INFO|Thread-20|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1813 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185327.871|INFO|Thread-20|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1813 ) handlePacket
+210414 185327.871|INFO|Thread-20|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 185327.871|INFO|Thread-20|dumpPacket|    To: TEAM27 @ site 1
+210414 185327.871|INFO|Thread-20|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 225 QUEUED_FOR_COMPUTER_JUDGEMENT 1373 min 82426311ms from TEAM27 @ site 1 id Run-8461925594517788591 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 185329.898|INFO|Thread-21|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1817 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185329.898|INFO|Thread-21|dumpPacket|Packet RUN_JUDGEMENT (Seq #1817 ) recieveObject
+210414 185329.898|INFO|Thread-21|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 185329.898|INFO|Thread-21|dumpPacket|    To: TEAM27 @ site 1
+210414 185329.898|INFO|Thread-21|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 225 JUDGED 1373 min 82426311ms from TEAM27 @ site 1 id Run-8461925594517788591 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 185329.899|INFO|Thread-21|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes-7050215675766178968 id JudgementRecord--5997921514872381822
+210414 185329.899|INFO|Thread-21|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210414 185329.899|INFO|Thread-21|info|handlePacket start Packet[RUN_JUDGEMENT] #1817 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185329.899|INFO|Thread-21|dumpPacket|Packet RUN_JUDGEMENT (Seq #1817 ) handlePacket
+210414 185329.899|INFO|Thread-21|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 185329.899|INFO|Thread-21|dumpPacket|    To: TEAM27 @ site 1
+210414 185329.899|INFO|Thread-21|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 225 JUDGED 1373 min 82426311ms from TEAM27 @ site 1 id Run-8461925594517788591 problem AGE_Sort--3285926020318936120 lang Python3--1212783992530221853
+210414 185329.899|INFO|Thread-21|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes-7050215675766178968 id JudgementRecord--5997921514872381822
+210414 185329.899|INFO|Thread-21|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210414 185331.285|INFO|Thread-21|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1817 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 185331.839|INFO|Thread-20|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1813 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 190116.933|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Fibonacci Python3 file: C:\Users\user\Desktop\algorithm\HW4_0414\fibonacci.py
+210414 190116.935|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #9 TEAM27 @ site 1 -> SERVER0 @ site 1
+210414 190116.935|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #9 TEAM27 @ site 1 -> SERVER0 @ site 1
+210414 190117.019|INFO|Thread-23|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1820 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 190117.019|INFO|Thread-23|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1820 ) recieveObject
+210414 190117.019|INFO|Thread-23|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 190117.019|INFO|Thread-23|dumpPacket|    To: TEAM27 @ site 1
+210414 190117.019|INFO|Thread-23|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 226 QUEUED_FOR_COMPUTER_JUDGEMENT 1381 min 82895454ms from TEAM27 @ site 1 id Run--4612658548986916608 problem Fibonacci-8706914466285789782 lang Python3--1212783992530221853
+210414 190117.019|INFO|Thread-23|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1820 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 190117.019|INFO|Thread-23|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1820 ) handlePacket
+210414 190117.019|INFO|Thread-23|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 190117.020|INFO|Thread-23|dumpPacket|    To: TEAM27 @ site 1
+210414 190117.020|INFO|Thread-23|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 226 QUEUED_FOR_COMPUTER_JUDGEMENT 1381 min 82895454ms from TEAM27 @ site 1 id Run--4612658548986916608 problem Fibonacci-8706914466285789782 lang Python3--1212783992530221853
+210414 190118.785|INFO|Thread-24|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1824 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 190118.785|INFO|Thread-24|dumpPacket|Packet RUN_JUDGEMENT (Seq #1824 ) recieveObject
+210414 190118.785|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 190118.785|INFO|Thread-24|dumpPacket|    To: TEAM27 @ site 1
+210414 190118.785|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 226 JUDGED 1381 min 82895454ms from TEAM27 @ site 1 id Run--4612658548986916608 problem Fibonacci-8706914466285789782 lang Python3--1212783992530221853
+210414 190118.785|INFO|Thread-24|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes-7050215675766178968 id JudgementRecord-4454287813882646398
+210414 190118.785|INFO|Thread-24|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210414 190118.785|INFO|Thread-24|info|handlePacket start Packet[RUN_JUDGEMENT] #1824 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 190118.785|INFO|Thread-24|dumpPacket|Packet RUN_JUDGEMENT (Seq #1824 ) handlePacket
+210414 190118.785|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 190118.786|INFO|Thread-24|dumpPacket|    To: TEAM27 @ site 1
+210414 190118.786|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 226 JUDGED 1381 min 82895454ms from TEAM27 @ site 1 id Run--4612658548986916608 problem Fibonacci-8706914466285789782 lang Python3--1212783992530221853
+210414 190118.786|INFO|Thread-24|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes-7050215675766178968 id JudgementRecord-4454287813882646398
+210414 190118.786|INFO|Thread-24|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210414 190119.620|INFO|Thread-24|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1824 SERVER0 @ site 1 -> TEAM27 @ site 1
+210414 190119.926|INFO|Thread-23|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1820 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 004630.155|CONFIG|Thread-2|setFileHandlers|Now logging to C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin\logs directory.
+210428 004630.156|INFO|Thread-2|info|
+210428 004630.156|INFO|Thread-2|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 15.0.2 build 3850 Windows 10 10.0 (amd64) 
+210428 004630.156|INFO|Thread-2|info|Login: team27 (aka team27)
+210428 004630.156|INFO|Thread-2|startLog|Working directory is C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin
+210428 004630.156|INFO|Thread-2|startLog|Process id is 27284@MSI
+210428 004630.157|INFO|Thread-2|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+210428 004630.171|INFO|Thread-2|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+210428 004630.391|INFO|Thread-2|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+210428 004630.392|INFO|Thread-2|info|handlePacket end Packet[LOGIN_SUCCESS] #1026 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 004630.393|INFO|Thread-2|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #1026 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 004653.419|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Euler Function Python3 file: C:\Users\user\Desktop\algorithm\HW5_0427\Euler-Function.py
+210428 004653.423|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 004653.423|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 004653.642|INFO|Thread-4|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1028 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 004653.643|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1028 ) recieveObject
+210428 004653.643|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 004653.643|INFO|Thread-4|dumpPacket|    To: TEAM27 @ site 1
+210428 004653.643|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 130 QUEUED_FOR_COMPUTER_JUDGEMENT 287 min 17233238ms from TEAM27 @ site 1 id Run-5704422345477404643 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 004653.643|INFO|Thread-4|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1028 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 004653.644|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1028 ) handlePacket
+210428 004653.644|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 004653.644|INFO|Thread-4|dumpPacket|    To: TEAM27 @ site 1
+210428 004653.644|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 130 QUEUED_FOR_COMPUTER_JUDGEMENT 287 min 17233238ms from TEAM27 @ site 1 id Run-5704422345477404643 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 004655.886|INFO|Thread-5|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1032 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 004655.886|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #1032 ) recieveObject
+210428 004655.886|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 004655.886|INFO|Thread-5|dumpPacket|    To: TEAM27 @ site 1
+210428 004655.887|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 130 JUDGED 287 min 17233238ms from TEAM27 @ site 1 id Run-5704422345477404643 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 004655.887|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--8639221503195550927
+210428 004655.887|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 004655.887|INFO|Thread-5|info|handlePacket start Packet[RUN_JUDGEMENT] #1032 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 004655.887|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #1032 ) handlePacket
+210428 004655.888|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 004655.888|INFO|Thread-5|dumpPacket|    To: TEAM27 @ site 1
+210428 004655.888|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 130 JUDGED 287 min 17233238ms from TEAM27 @ site 1 id Run-5704422345477404643 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 004655.888|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--8639221503195550927
+210428 004655.888|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 004657.361|INFO|Thread-5|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1032 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 004659.690|INFO|Thread-4|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1028 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 005631.977|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Euler Function Python3 file: C:\Users\user\Desktop\algorithm\HW5_0427\Euler-Function.py
+210428 005631.980|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 005631.983|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 005632.204|INFO|Thread-7|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1045 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 005632.205|INFO|Thread-7|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1045 ) recieveObject
+210428 005632.205|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 005632.205|INFO|Thread-7|dumpPacket|    To: TEAM27 @ site 1
+210428 005632.205|INFO|Thread-7|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 132 QUEUED_FOR_COMPUTER_JUDGEMENT 296 min 17811775ms from TEAM27 @ site 1 id Run-2261253003259420908 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 005632.205|INFO|Thread-7|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1045 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 005632.205|INFO|Thread-7|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1045 ) handlePacket
+210428 005632.206|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 005632.206|INFO|Thread-7|dumpPacket|    To: TEAM27 @ site 1
+210428 005632.206|INFO|Thread-7|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 132 QUEUED_FOR_COMPUTER_JUDGEMENT 296 min 17811775ms from TEAM27 @ site 1 id Run-2261253003259420908 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 005633.720|INFO|Thread-8|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1050 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 005633.720|INFO|Thread-8|dumpPacket|Packet RUN_JUDGEMENT (Seq #1050 ) recieveObject
+210428 005633.720|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 005633.720|INFO|Thread-8|dumpPacket|    To: TEAM27 @ site 1
+210428 005633.721|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 132 JUDGED 296 min 17811775ms from TEAM27 @ site 1 id Run-2261253003259420908 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 005633.721|INFO|Thread-8|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--4802497931872492293
+210428 005633.721|INFO|Thread-8|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 005633.721|INFO|Thread-8|info|handlePacket start Packet[RUN_JUDGEMENT] #1050 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 005633.721|INFO|Thread-8|dumpPacket|Packet RUN_JUDGEMENT (Seq #1050 ) handlePacket
+210428 005633.721|INFO|Thread-8|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 005633.722|INFO|Thread-8|dumpPacket|    To: TEAM27 @ site 1
+210428 005633.722|INFO|Thread-8|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 132 JUDGED 296 min 17811775ms from TEAM27 @ site 1 id Run-2261253003259420908 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 005633.722|INFO|Thread-8|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--4802497931872492293
+210428 005633.722|INFO|Thread-8|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 005638.014|INFO|Thread-8|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1050 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 005639.302|INFO|Thread-7|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1045 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 005649.088|INFO|Thread-9|testRun|test run for Euler Function Python3 file: C:\Users\user\Desktop\algorithm\HW5_0427\Euler-Function.py
+210428 005649.104|CONFIG|Thread-9|compileProgram|Team submitted an executable 
+210428 005649.105|DEBUG|Thread-9|compileProgram|before substitution: python3 -m py_compile {:mainfile}
+210428 005649.107|DEBUG|Thread-9|compileProgram|after  substitution: python3 -m py_compile Euler-Function.py
+210428 005649.139|CONFIG|Thread-9|runProgram|executing: 'python3 -m py_compile Euler-Function.py'
+210428 005653.028|DEBUG|Thread-9|executeProgram|before substitution: python3 {:mainfile}
+210428 005653.029|DEBUG|Thread-9|executeProgram|after  substitution: python3 Euler-Function.py
+210428 005653.030|CONFIG|Thread-9|runProgram|executing: 'python3 Euler-Function.py'
+210428 005653.277|INFO|Thread-9|executeProgram|Using STDIN from file executesite1team27\__t1212686003647904631.in
+210428 005653.510|INFO|Thread-9|executeProgram|Run exceeded time limit 10 secs, Run = Run 0 QUEUED_FOR_COMPUTER_JUDGEMENT 0 min 0ms from TEAM27 @ site 1 id Run--142184214803081587 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 010626.797|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Euler Function Python3 file: C:\Users\user\Desktop\algorithm\HW5_0427\Euler-Function.py
+210428 010626.800|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #4 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 010626.800|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #4 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 010627.031|INFO|Thread-17|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1052 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 010627.032|INFO|Thread-17|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1052 ) recieveObject
+210428 010627.032|INFO|Thread-17|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 010627.032|INFO|Thread-17|dumpPacket|    To: TEAM27 @ site 1
+210428 010627.032|INFO|Thread-17|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 133 QUEUED_FOR_COMPUTER_JUDGEMENT 306 min 18406576ms from TEAM27 @ site 1 id Run--2297221009766104231 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 010627.032|INFO|Thread-17|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1052 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 010627.032|INFO|Thread-17|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1052 ) handlePacket
+210428 010627.033|INFO|Thread-17|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 010627.033|INFO|Thread-17|dumpPacket|    To: TEAM27 @ site 1
+210428 010627.033|INFO|Thread-17|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 133 QUEUED_FOR_COMPUTER_JUDGEMENT 306 min 18406576ms from TEAM27 @ site 1 id Run--2297221009766104231 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 010628.187|INFO|Thread-18|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1056 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 010628.187|INFO|Thread-18|dumpPacket|Packet RUN_JUDGEMENT (Seq #1056 ) recieveObject
+210428 010628.187|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 010628.188|INFO|Thread-18|dumpPacket|    To: TEAM27 @ site 1
+210428 010628.188|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 133 JUDGED 306 min 18406576ms from TEAM27 @ site 1 id Run--2297221009766104231 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 010628.189|INFO|Thread-18|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord-7472809744614176553
+210428 010628.189|INFO|Thread-18|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 010628.189|INFO|Thread-18|info|handlePacket start Packet[RUN_JUDGEMENT] #1056 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 010628.189|INFO|Thread-18|dumpPacket|Packet RUN_JUDGEMENT (Seq #1056 ) handlePacket
+210428 010628.190|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 010628.190|INFO|Thread-18|dumpPacket|    To: TEAM27 @ site 1
+210428 010628.190|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 133 JUDGED 306 min 18406576ms from TEAM27 @ site 1 id Run--2297221009766104231 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 010628.190|INFO|Thread-18|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord-7472809744614176553
+210428 010628.190|INFO|Thread-18|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 010632.693|INFO|Thread-18|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1056 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 010633.374|INFO|Thread-17|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1052 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 011141.520|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Relation Operator Python3 file: C:\Users\user\Desktop\algorithm\HW5_0427\NEWRelational-Operators2.py
+210428 011141.522|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #5 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 011141.523|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #5 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 011141.878|INFO|Thread-20|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1058 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 011141.878|INFO|Thread-20|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1058 ) recieveObject
+210428 011141.878|INFO|Thread-20|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 011141.879|INFO|Thread-20|dumpPacket|    To: TEAM27 @ site 1
+210428 011141.879|INFO|Thread-20|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 134 QUEUED_FOR_COMPUTER_JUDGEMENT 312 min 18721295ms from TEAM27 @ site 1 id Run-3090899329269820206 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210428 011141.879|INFO|Thread-20|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1058 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 011141.879|INFO|Thread-20|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1058 ) handlePacket
+210428 011141.879|INFO|Thread-20|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 011141.879|INFO|Thread-20|dumpPacket|    To: TEAM27 @ site 1
+210428 011141.879|INFO|Thread-20|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 134 QUEUED_FOR_COMPUTER_JUDGEMENT 312 min 18721295ms from TEAM27 @ site 1 id Run-3090899329269820206 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210428 011143.385|INFO|Thread-21|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1062 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 011143.386|INFO|Thread-21|dumpPacket|Packet RUN_JUDGEMENT (Seq #1062 ) recieveObject
+210428 011143.386|INFO|Thread-21|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 011143.386|INFO|Thread-21|dumpPacket|    To: TEAM27 @ site 1
+210428 011143.386|INFO|Thread-21|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 134 JUDGED 312 min 18721295ms from TEAM27 @ site 1 id Run-3090899329269820206 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210428 011143.386|INFO|Thread-21|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--999142980366782284
+210428 011143.386|INFO|Thread-21|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 011143.387|INFO|Thread-21|info|handlePacket start Packet[RUN_JUDGEMENT] #1062 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 011143.387|INFO|Thread-21|dumpPacket|Packet RUN_JUDGEMENT (Seq #1062 ) handlePacket
+210428 011143.387|INFO|Thread-21|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 011143.387|INFO|Thread-21|dumpPacket|    To: TEAM27 @ site 1
+210428 011143.387|INFO|Thread-21|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 134 JUDGED 312 min 18721295ms from TEAM27 @ site 1 id Run-3090899329269820206 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210428 011143.387|INFO|Thread-21|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--999142980366782284
+210428 011143.387|INFO|Thread-21|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 011150.046|INFO|Thread-21|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1062 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 011151.407|INFO|Thread-20|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1058 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 011154.452|INFO|Thread-22|testRun|test run for Relation Operator Python3 file: C:\Users\user\Desktop\algorithm\HW5_0427\NEWRelational-Operators2.py
+210428 011154.462|CONFIG|Thread-22|compileProgram|Team submitted an executable 
+210428 011154.462|DEBUG|Thread-22|compileProgram|before substitution: python3 -m py_compile {:mainfile}
+210428 011154.464|DEBUG|Thread-22|compileProgram|after  substitution: python3 -m py_compile NEWRelational-Operators2.py
+210428 011154.494|CONFIG|Thread-22|runProgram|executing: 'python3 -m py_compile NEWRelational-Operators2.py'
+210428 011159.059|DEBUG|Thread-22|executeProgram|before substitution: python3 {:mainfile}
+210428 011159.061|DEBUG|Thread-22|executeProgram|after  substitution: python3 NEWRelational-Operators2.py
+210428 011159.063|CONFIG|Thread-22|runProgram|executing: 'python3 NEWRelational-Operators2.py'
+210428 011159.324|INFO|Thread-22|executeProgram|Using STDIN from file executesite1team27\__t16975305117516231435.in
+210428 011159.585|INFO|Thread-22|executeProgram|Run exceeded time limit 10 secs, Run = Run 0 QUEUED_FOR_COMPUTER_JUDGEMENT 0 min 0ms from TEAM27 @ site 1 id Run--7316815034413328349 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210428 021103.196|CONFIG|Thread-2|setFileHandlers|Now logging to C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin\logs directory.
+210428 021103.196|INFO|Thread-2|info|
+210428 021103.196|INFO|Thread-2|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 15.0.2 build 3850 Windows 10 10.0 (amd64) 
+210428 021103.196|INFO|Thread-2|info|Login: team27 (aka team27)
+210428 021103.197|INFO|Thread-2|startLog|Working directory is C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin
+210428 021103.197|INFO|Thread-2|startLog|Process id is 27544@MSI
+210428 021103.197|INFO|Thread-2|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+210428 021103.207|INFO|Thread-2|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+210428 021103.424|INFO|Thread-2|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+210428 021103.424|INFO|Thread-2|info|handlePacket end Packet[LOGIN_SUCCESS] #1098 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 021103.424|INFO|Thread-2|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #1098 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 021134.274|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Relation Operator Python3 file: C:\Users\user\Desktop\algorithm\HW5_0427\NEWRelational_Operators2.py
+210428 021134.275|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 021134.276|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 021134.915|INFO|Thread-4|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1100 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 021134.916|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1100 ) recieveObject
+210428 021134.916|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 021134.916|INFO|Thread-4|dumpPacket|    To: TEAM27 @ site 1
+210428 021134.916|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 139 QUEUED_FOR_COMPUTER_JUDGEMENT 371 min 22314248ms from TEAM27 @ site 1 id Run--5031624353453402131 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210428 021134.917|INFO|Thread-4|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1100 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 021134.917|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1100 ) handlePacket
+210428 021134.917|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 021134.917|INFO|Thread-4|dumpPacket|    To: TEAM27 @ site 1
+210428 021134.917|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 139 QUEUED_FOR_COMPUTER_JUDGEMENT 371 min 22314248ms from TEAM27 @ site 1 id Run--5031624353453402131 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210428 021137.011|INFO|Thread-5|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1105 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 021137.011|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #1105 ) recieveObject
+210428 021137.011|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 021137.011|INFO|Thread-5|dumpPacket|    To: TEAM27 @ site 1
+210428 021137.011|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 139 JUDGED 371 min 22314248ms from TEAM27 @ site 1 id Run--5031624353453402131 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210428 021137.012|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord-339721030010702198
+210428 021137.012|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 021137.012|INFO|Thread-5|info|handlePacket start Packet[RUN_JUDGEMENT] #1105 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 021137.012|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #1105 ) handlePacket
+210428 021137.012|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 021137.012|INFO|Thread-5|dumpPacket|    To: TEAM27 @ site 1
+210428 021137.012|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 139 JUDGED 371 min 22314248ms from TEAM27 @ site 1 id Run--5031624353453402131 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210428 021137.013|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord-339721030010702198
+210428 021137.013|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 021138.674|INFO|Thread-5|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1105 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 021139.273|INFO|Thread-4|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1100 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223131.572|CONFIG|Thread-2|setFileHandlers|Now logging to C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin\logs directory.
+210428 223131.573|INFO|Thread-2|info|
+210428 223131.573|INFO|Thread-2|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 15.0.2 build 3850 Windows 10 10.0 (amd64) 
+210428 223131.573|INFO|Thread-2|info|Login: team27 (aka team27)
+210428 223131.573|INFO|Thread-2|startLog|Working directory is C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin
+210428 223131.574|INFO|Thread-2|startLog|Process id is 5076@MSI
+210428 223131.574|INFO|Thread-2|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+210428 223131.585|INFO|Thread-2|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+210428 223131.778|INFO|Thread-2|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+210428 223131.779|INFO|Thread-2|info|handlePacket end Packet[LOGIN_SUCCESS] #2099 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223131.779|INFO|Thread-2|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #2099 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223153.016|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Relation Operator Python3 file: C:\Users\user\Desktop\algorithm\HW5_0427\NEWRelational_Operators2.py
+210428 223153.022|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 223153.023|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 223153.215|INFO|Thread-4|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #2101 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223153.215|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2101 ) recieveObject
+210428 223153.215|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223153.215|INFO|Thread-4|dumpPacket|    To: TEAM27 @ site 1
+210428 223153.216|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 264 QUEUED_FOR_COMPUTER_JUDGEMENT 1592 min 95531222ms from TEAM27 @ site 1 id Run--4919228082409519965 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210428 223153.216|INFO|Thread-4|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #2101 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223153.216|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2101 ) handlePacket
+210428 223153.216|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223153.216|INFO|Thread-4|dumpPacket|    To: TEAM27 @ site 1
+210428 223153.216|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 264 QUEUED_FOR_COMPUTER_JUDGEMENT 1592 min 95531222ms from TEAM27 @ site 1 id Run--4919228082409519965 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210428 223154.529|INFO|Thread-5|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #2105 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223154.529|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #2105 ) recieveObject
+210428 223154.529|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223154.529|INFO|Thread-5|dumpPacket|    To: TEAM27 @ site 1
+210428 223154.530|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 264 JUDGED 1592 min 95531222ms from TEAM27 @ site 1 id Run--4919228082409519965 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210428 223154.530|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--8646282316674963758
+210428 223154.530|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 223154.530|INFO|Thread-5|info|handlePacket start Packet[RUN_JUDGEMENT] #2105 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223154.530|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #2105 ) handlePacket
+210428 223154.530|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223154.531|INFO|Thread-5|dumpPacket|    To: TEAM27 @ site 1
+210428 223154.531|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 264 JUDGED 1592 min 95531222ms from TEAM27 @ site 1 id Run--4919228082409519965 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210428 223154.531|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--8646282316674963758
+210428 223154.531|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 223156.983|INFO|Thread-5|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #2105 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223157.839|INFO|Thread-4|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #2101 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223158.393|INFO|Thread-6|testRun|test run for Relation Operator Python3 file: C:\Users\user\Desktop\algorithm\HW5_0427\NEWRelational_Operators2.py
+210428 223158.404|CONFIG|Thread-6|compileProgram|Team submitted an executable 
+210428 223158.405|DEBUG|Thread-6|compileProgram|before substitution: python3 -m py_compile {:mainfile}
+210428 223158.405|DEBUG|Thread-6|compileProgram|after  substitution: python3 -m py_compile NEWRelational_Operators2.py
+210428 223158.424|CONFIG|Thread-6|runProgram|executing: 'python3 -m py_compile NEWRelational_Operators2.py'
+210428 223202.867|DEBUG|Thread-6|executeProgram|before substitution: python3 {:mainfile}
+210428 223202.868|DEBUG|Thread-6|executeProgram|after  substitution: python3 NEWRelational_Operators2.py
+210428 223202.869|CONFIG|Thread-6|runProgram|executing: 'python3 NEWRelational_Operators2.py'
+210428 223202.972|INFO|Thread-6|executeProgram|Using STDIN from file executesite1team27\__t15007170101177824517.in
+210428 223203.141|INFO|Thread-6|executeProgram|Run exceeded time limit 10 secs, Run = Run 0 QUEUED_FOR_COMPUTER_JUDGEMENT 0 min 0ms from TEAM27 @ site 1 id Run-520245883781808279 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210428 223542.151|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Euler Function Python3 file: C:\Users\user\Desktop\algorithm\HW5_0427\Euler_Function.py
+210428 223542.152|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 223542.152|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 223542.361|INFO|Thread-14|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #2107 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223542.361|INFO|Thread-14|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2107 ) recieveObject
+210428 223542.361|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223542.362|INFO|Thread-14|dumpPacket|    To: TEAM27 @ site 1
+210428 223542.362|INFO|Thread-14|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 265 QUEUED_FOR_COMPUTER_JUDGEMENT 1596 min 95760327ms from TEAM27 @ site 1 id Run--8968605376142332701 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 223542.362|INFO|Thread-14|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #2107 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223542.362|INFO|Thread-14|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2107 ) handlePacket
+210428 223542.362|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223542.362|INFO|Thread-14|dumpPacket|    To: TEAM27 @ site 1
+210428 223542.362|INFO|Thread-14|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 265 QUEUED_FOR_COMPUTER_JUDGEMENT 1596 min 95760327ms from TEAM27 @ site 1 id Run--8968605376142332701 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 223543.725|INFO|Thread-15|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #2111 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223543.725|INFO|Thread-15|dumpPacket|Packet RUN_JUDGEMENT (Seq #2111 ) recieveObject
+210428 223543.726|INFO|Thread-15|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223543.726|INFO|Thread-15|dumpPacket|    To: TEAM27 @ site 1
+210428 223543.726|INFO|Thread-15|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 265 JUDGED 1596 min 95760327ms from TEAM27 @ site 1 id Run--8968605376142332701 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 223543.726|INFO|Thread-15|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--1126169550293682232
+210428 223543.726|INFO|Thread-15|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 223543.726|INFO|Thread-15|info|handlePacket start Packet[RUN_JUDGEMENT] #2111 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223543.726|INFO|Thread-15|dumpPacket|Packet RUN_JUDGEMENT (Seq #2111 ) handlePacket
+210428 223543.726|INFO|Thread-15|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223543.726|INFO|Thread-15|dumpPacket|    To: TEAM27 @ site 1
+210428 223543.727|INFO|Thread-15|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 265 JUDGED 1596 min 95760327ms from TEAM27 @ site 1 id Run--8968605376142332701 problem Euler Function-5363605991208110451 lang Python3--1212783992530221853
+210428 223543.727|INFO|Thread-15|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--1126169550293682232
+210428 223543.727|INFO|Thread-15|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 223548.838|INFO|Thread-15|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #2111 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223549.709|INFO|Thread-14|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #2107 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223556.182|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Product of digits Python3 file: C:\Users\user\Desktop\algorithm\HW5_0427\product_of_digits.py
+210428 223556.183|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #4 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 223556.183|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #4 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 223556.386|INFO|Thread-17|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #2113 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223556.386|INFO|Thread-17|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2113 ) recieveObject
+210428 223556.386|INFO|Thread-17|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223556.387|INFO|Thread-17|dumpPacket|    To: TEAM27 @ site 1
+210428 223556.387|INFO|Thread-17|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 266 QUEUED_FOR_COMPUTER_JUDGEMENT 1596 min 95774370ms from TEAM27 @ site 1 id Run--8558443816511238842 problem Product of digits--5741379420388455617 lang Python3--1212783992530221853
+210428 223556.387|INFO|Thread-17|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #2113 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223556.387|INFO|Thread-17|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2113 ) handlePacket
+210428 223556.387|INFO|Thread-17|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223556.387|INFO|Thread-17|dumpPacket|    To: TEAM27 @ site 1
+210428 223556.387|INFO|Thread-17|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 266 QUEUED_FOR_COMPUTER_JUDGEMENT 1596 min 95774370ms from TEAM27 @ site 1 id Run--8558443816511238842 problem Product of digits--5741379420388455617 lang Python3--1212783992530221853
+210428 223557.671|INFO|Thread-18|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #2118 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223557.671|INFO|Thread-18|dumpPacket|Packet RUN_JUDGEMENT (Seq #2118 ) recieveObject
+210428 223557.671|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223557.671|INFO|Thread-18|dumpPacket|    To: TEAM27 @ site 1
+210428 223557.671|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 266 JUDGED 1596 min 95774370ms from TEAM27 @ site 1 id Run--8558443816511238842 problem Product of digits--5741379420388455617 lang Python3--1212783992530221853
+210428 223557.671|INFO|Thread-18|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord-6261188959651168977
+210428 223557.672|INFO|Thread-18|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 223557.672|INFO|Thread-18|info|handlePacket start Packet[RUN_JUDGEMENT] #2118 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223557.672|INFO|Thread-18|dumpPacket|Packet RUN_JUDGEMENT (Seq #2118 ) handlePacket
+210428 223557.672|INFO|Thread-18|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223557.672|INFO|Thread-18|dumpPacket|    To: TEAM27 @ site 1
+210428 223557.672|INFO|Thread-18|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 266 JUDGED 1596 min 95774370ms from TEAM27 @ site 1 id Run--8558443816511238842 problem Product of digits--5741379420388455617 lang Python3--1212783992530221853
+210428 223557.672|INFO|Thread-18|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord-6261188959651168977
+210428 223557.672|INFO|Thread-18|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 223741.232|INFO|Thread-18|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #2118 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223744.253|INFO|Thread-17|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #2113 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223749.622|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Product of digits Python file: C:\Users\user\Desktop\algorithm\HW5_0427\product_of_digits.py
+210428 223749.624|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #5 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 223749.624|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #5 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 223749.817|INFO|Thread-20|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #2120 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223749.817|INFO|Thread-20|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2120 ) recieveObject
+210428 223749.817|INFO|Thread-20|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223749.818|INFO|Thread-20|dumpPacket|    To: TEAM27 @ site 1
+210428 223749.818|INFO|Thread-20|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 267 QUEUED_FOR_COMPUTER_JUDGEMENT 1598 min 95887801ms from TEAM27 @ site 1 id Run-2084133061809353353 problem Product of digits--5741379420388455617 lang Python-8740769211156809288
+210428 223749.818|INFO|Thread-20|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #2120 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223749.818|INFO|Thread-20|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2120 ) handlePacket
+210428 223749.818|INFO|Thread-20|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223749.818|INFO|Thread-20|dumpPacket|    To: TEAM27 @ site 1
+210428 223749.818|INFO|Thread-20|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 267 QUEUED_FOR_COMPUTER_JUDGEMENT 1598 min 95887801ms from TEAM27 @ site 1 id Run-2084133061809353353 problem Product of digits--5741379420388455617 lang Python-8740769211156809288
+210428 223751.189|INFO|Thread-21|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #2124 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223751.190|INFO|Thread-21|dumpPacket|Packet RUN_JUDGEMENT (Seq #2124 ) recieveObject
+210428 223751.190|INFO|Thread-21|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223751.190|INFO|Thread-21|dumpPacket|    To: TEAM27 @ site 1
+210428 223751.190|INFO|Thread-21|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 267 JUDGED 1598 min 95887801ms from TEAM27 @ site 1 id Run-2084133061809353353 problem Product of digits--5741379420388455617 lang Python-8740769211156809288
+210428 223751.190|INFO|Thread-21|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord-4111441970518957677
+210428 223751.190|INFO|Thread-21|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 223751.191|INFO|Thread-21|info|handlePacket start Packet[RUN_JUDGEMENT] #2124 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223751.191|INFO|Thread-21|dumpPacket|Packet RUN_JUDGEMENT (Seq #2124 ) handlePacket
+210428 223751.191|INFO|Thread-21|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223751.191|INFO|Thread-21|dumpPacket|    To: TEAM27 @ site 1
+210428 223751.191|INFO|Thread-21|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 267 JUDGED 1598 min 95887801ms from TEAM27 @ site 1 id Run-2084133061809353353 problem Product of digits--5741379420388455617 lang Python-8740769211156809288
+210428 223751.191|INFO|Thread-21|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord-4111441970518957677
+210428 223751.191|INFO|Thread-21|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 223752.007|INFO|Thread-21|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #2124 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223755.117|INFO|Thread-20|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #2120 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223810.078|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Product of digits Python3 file: C:\Users\user\Desktop\algorithm\HW5_0427\product_of_digits.py
+210428 223810.080|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #6 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 223810.081|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #6 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 223810.308|INFO|Thread-23|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #2126 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223810.308|INFO|Thread-23|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2126 ) recieveObject
+210428 223810.308|INFO|Thread-23|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223810.309|INFO|Thread-23|dumpPacket|    To: TEAM27 @ site 1
+210428 223810.309|INFO|Thread-23|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 268 QUEUED_FOR_COMPUTER_JUDGEMENT 1598 min 95908287ms from TEAM27 @ site 1 id Run-4340891554537069048 problem Product of digits--5741379420388455617 lang Python3--1212783992530221853
+210428 223810.309|INFO|Thread-23|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #2126 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223810.309|INFO|Thread-23|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2126 ) handlePacket
+210428 223810.309|INFO|Thread-23|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223810.309|INFO|Thread-23|dumpPacket|    To: TEAM27 @ site 1
+210428 223810.309|INFO|Thread-23|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 268 QUEUED_FOR_COMPUTER_JUDGEMENT 1598 min 95908287ms from TEAM27 @ site 1 id Run-4340891554537069048 problem Product of digits--5741379420388455617 lang Python3--1212783992530221853
+210428 223811.802|INFO|Thread-24|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #2130 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223811.802|INFO|Thread-24|dumpPacket|Packet RUN_JUDGEMENT (Seq #2130 ) recieveObject
+210428 223811.803|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223811.803|INFO|Thread-24|dumpPacket|    To: TEAM27 @ site 1
+210428 223811.803|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 268 JUDGED 1598 min 95908287ms from TEAM27 @ site 1 id Run-4340891554537069048 problem Product of digits--5741379420388455617 lang Python3--1212783992530221853
+210428 223811.803|INFO|Thread-24|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--7534641857026781653
+210428 223811.803|INFO|Thread-24|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 223811.803|INFO|Thread-24|info|handlePacket start Packet[RUN_JUDGEMENT] #2130 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223811.803|INFO|Thread-24|dumpPacket|Packet RUN_JUDGEMENT (Seq #2130 ) handlePacket
+210428 223811.804|INFO|Thread-24|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 223811.804|INFO|Thread-24|dumpPacket|    To: TEAM27 @ site 1
+210428 223811.804|INFO|Thread-24|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 268 JUDGED 1598 min 95908287ms from TEAM27 @ site 1 id Run-4340891554537069048 problem Product of digits--5741379420388455617 lang Python3--1212783992530221853
+210428 223811.804|INFO|Thread-24|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--7534641857026781653
+210428 223811.804|INFO|Thread-24|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210428 223822.798|INFO|Thread-24|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #2130 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 223824.461|INFO|Thread-23|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #2126 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 224023.393|INFO|AWT-EventQueue-0|submitClarification|submit clarification for General Hello, the code I implemented should be fine, but the judge has a wrong answer
+210428 224023.394|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[CLARIFICATION_SUBMISSION] #7 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 224023.395|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[CLARIFICATION_SUBMISSION] #7 TEAM27 @ site 1 -> SERVER0 @ site 1
+210428 224023.765|INFO|Thread-26|info| receiveObject(S) start got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #2138 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 224023.765|INFO|Thread-26|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #2138 ) recieveObject
+210428 224023.765|INFO|Thread-26|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 224023.765|INFO|Thread-26|dumpPacket|    To: TEAM27 @ site 1
+210428 224023.765|INFO|Thread-26|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 1 NEW from TEAM27 @ site 1 at 1600 id=Clarification-771100436601746387
+210428 224023.766|INFO|Thread-26|info|handlePacket start Packet[CLARIFICATION_SUBMISSION_CONFIRM] #2138 SERVER0 @ site 1 -> TEAM27 @ site 1
+210428 224023.766|INFO|Thread-26|dumpPacket|Packet CLARIFICATION_SUBMISSION_CONFIRM (Seq #2138 ) handlePacket
+210428 224023.766|INFO|Thread-26|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210428 224023.766|INFO|Thread-26|dumpPacket|    To: TEAM27 @ site 1
+210428 224023.766|INFO|Thread-26|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 1 NEW from TEAM27 @ site 1 at 1600 id=Clarification-771100436601746387
+210428 224023.767|INFO|Thread-26|info| receiveObject(S) end   got Packet[CLARIFICATION_SUBMISSION_CONFIRM] #2138 SERVER0 @ site 1 -> TEAM27 @ site 1
+210430 191350.531|CONFIG|Thread-2|setFileHandlers|Now logging to C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin\logs directory.
+210430 191350.531|INFO|Thread-2|info|
+210430 191350.531|INFO|Thread-2|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 15.0.2 build 3850 Windows 10 10.0 (amd64) 
+210430 191350.532|INFO|Thread-2|info|Login: team27 (aka team27)
+210430 191350.532|INFO|Thread-2|startLog|Working directory is C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin
+210430 191350.532|INFO|Thread-2|startLog|Process id is 15384@MSI
+210430 191350.533|INFO|Thread-2|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+210430 191350.539|INFO|Thread-2|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+210430 191350.702|INFO|Thread-2|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+210430 191350.702|INFO|Thread-2|info|handlePacket end Packet[LOGIN_SUCCESS] #3388 SERVER0 @ site 1 -> TEAM27 @ site 1
+210430 191350.703|INFO|Thread-2|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #3388 SERVER0 @ site 1 -> TEAM27 @ site 1
+210430 191411.658|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Relation Operator Python3 file: C:\Users\user\Desktop\algorithm\HW5_0427\NEWRelational_Operators2.py
+210430 191411.664|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210430 191411.665|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM27 @ site 1 -> SERVER0 @ site 1
+210430 191412.582|INFO|Thread-4|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #3390 SERVER0 @ site 1 -> TEAM27 @ site 1
+210430 191412.582|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #3390 ) recieveObject
+210430 191412.582|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210430 191412.582|INFO|Thread-4|dumpPacket|    To: TEAM27 @ site 1
+210430 191412.583|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 426 QUEUED_FOR_COMPUTER_JUDGEMENT 4274 min 256467782ms from TEAM27 @ site 1 id Run--7980640624439842325 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210430 191412.583|INFO|Thread-4|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #3390 SERVER0 @ site 1 -> TEAM27 @ site 1
+210430 191412.583|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #3390 ) handlePacket
+210430 191412.583|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210430 191412.583|INFO|Thread-4|dumpPacket|    To: TEAM27 @ site 1
+210430 191412.584|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 426 QUEUED_FOR_COMPUTER_JUDGEMENT 4274 min 256467782ms from TEAM27 @ site 1 id Run--7980640624439842325 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210430 191414.005|INFO|Thread-5|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #3394 SERVER0 @ site 1 -> TEAM27 @ site 1
+210430 191414.005|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #3394 ) recieveObject
+210430 191414.005|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210430 191414.005|INFO|Thread-5|dumpPacket|    To: TEAM27 @ site 1
+210430 191414.005|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 426 JUDGED 4274 min 256467782ms from TEAM27 @ site 1 id Run--7980640624439842325 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210430 191414.005|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--8008502991810993851
+210430 191414.006|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210430 191414.006|INFO|Thread-5|info|handlePacket start Packet[RUN_JUDGEMENT] #3394 SERVER0 @ site 1 -> TEAM27 @ site 1
+210430 191414.006|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #3394 ) handlePacket
+210430 191414.006|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210430 191414.006|INFO|Thread-5|dumpPacket|    To: TEAM27 @ site 1
+210430 191414.006|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 426 JUDGED 4274 min 256467782ms from TEAM27 @ site 1 id Run--7980640624439842325 problem Relation Operator--3046947359388130156 lang Python3--1212783992530221853
+210430 191414.006|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No - Wrong Answer-2540821140656334531 id JudgementRecord--8008502991810993851
+210430 191414.007|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+210430 191415.592|INFO|Thread-5|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #3394 SERVER0 @ site 1 -> TEAM27 @ site 1
+210430 191416.065|INFO|Thread-4|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #3390 SERVER0 @ site 1 -> TEAM27 @ site 1

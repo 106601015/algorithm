@@ -1,0 +1,24 @@
+210414 184138.958|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin\logs directory.
+210414 184138.958|INFO|AWT-EventQueue-0|info|
+210414 184138.959|INFO|AWT-EventQueue-0|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 15.0.2 build 3850 Windows 10 10.0 (amd64) 
+210414 184138.959|INFO|AWT-EventQueue-0|info|Login: team27 (aka team27)
+210414 184138.959|INFO|AWT-EventQueue-0|startLog|Working directory is C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin
+210414 184138.960|INFO|AWT-EventQueue-0|startLog|Process id is 10984@MSI
+210414 184138.961|INFO|AWT-EventQueue-0|info|Contacting server at 140.115.54.193:50002 as TEAM27 @ site 0
+210414 184138.961|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM27 @ site 0
+210414 184138.961|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #2 TEAM27 @ site 0 -> SERVER0 @ site 0
+210414 184138.961|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #2 TEAM27 @ site 0 -> SERVER0 @ site 0
+210414 184138.961|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+210414 184138.961|INFO|Thread-3|run|send(Serializable)
+210414 184139.264|INFO|Thread-0|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+210414 184139.265|INFO|Thread-4|info| receiveObject(S) start got Packet[LOGIN_FAILED] #1765 SERVER0 @ site 1 -> TEAM27 @ site 0
+210414 184139.265|INFO|Thread-4|dumpPacket|Packet LOGIN_FAILED (Seq #1765 ) recieveObject
+210414 184139.266|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 184139.266|INFO|Thread-4|dumpPacket|    To: TEAM27 @ site 0
+210414 184139.266|INFO|Thread-4|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+210414 184139.266|INFO|Thread-4|info|handlePacket start Packet[LOGIN_FAILED] #1765 SERVER0 @ site 1 -> TEAM27 @ site 0
+210414 184139.266|INFO|Thread-4|dumpPacket|Packet LOGIN_FAILED (Seq #1765 ) handlePacket
+210414 184139.266|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-3521861532230925096)
+210414 184139.266|INFO|Thread-4|dumpPacket|    To: TEAM27 @ site 0
+210414 184139.266|INFO|Thread-4|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+210414 184141.956|INFO|Thread-4|info| receiveObject(S) end   got Packet[LOGIN_FAILED] #1765 SERVER0 @ site 1 -> TEAM27 @ site 0

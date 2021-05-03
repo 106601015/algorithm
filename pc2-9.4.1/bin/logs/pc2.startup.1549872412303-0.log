@@ -1,0 +1,12 @@
+190211 160652.388|CONFIG|main|setFileHandlers|Now logging to C:\Users\user\Desktop\pc2-9.4.1\bin\logs directory.
+190211 160652.390|INFO|main|info|
+190211 160652.393|INFO|main|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 1.8.0_181 build 3850 Windows 10 10.0 (amd64) 
+190211 160652.393|INFO|main|startLog|Working directory is C:\Users\user\Desktop\pc2-9.4.1\bin
+190211 160652.402|INFO|main|startLog|Process id is 20100@DESKTOP-0005
+190211 160652.402|INFO|main|start|Starting ConnectionManager...
+190211 160652.645|INFO|main|start|Started ConnectionManager
+190211 160652.647|INFO|main|setClientServerAndPort|INIFile File location: file:/C:/Users/user/Desktop/pc2-9.4.1/bin/pc2v9.ini
+190211 160652.648|INFO|main|setClientServerAndPort|setClientServerAndPort 140.115.54.193 parsed as 140.115.54.193 port 50002
+190211 160652.648|INFO|main|info|Contacting server at 140.115.54.193:50002
+190211 160652.648|INFO|main|connectToMyServer|Connecting to 140.115.54.193:50002
+190211 160652.723|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/140.115.54.193,port=50002,localport=4648]-5320849378724721992)

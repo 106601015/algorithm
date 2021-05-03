@@ -1,0 +1,5 @@
+*.h5
+*.npy
+/term_project/basic_cnn
+/term_project/train_image
+/term_project/test_image
