@@ -34,6 +34,7 @@ def QuickSort_firstPivot(num_list, lb, rb):
     if lb >= rb:
         return num_list
     # set pivot, left index and right index
+    print_list(num_list, 'p sure:')
     p = num_list[lb]
     l = lb + 1
     r = rb
@@ -54,7 +55,7 @@ def QuickSort_firstPivot(num_list, lb, rb):
             num_list[l] = num_list[r]
             num_list[r] = buffer
             #print(l, r, num_list[l], num_list[r])
-            print_list(num_list)
+            print_list(num_list, 'l r   :')
         # if l meet r
         else:
             break
@@ -63,24 +64,22 @@ def QuickSort_firstPivot(num_list, lb, rb):
     buffer = num_list[lb]
     num_list[lb] = num_list[r]
     num_list[r] = buffer
-    #print(lb, r, num_list[lb], num_list[r])
-    #print_list(num_list)
+    #print_list(num_list, 'lb r:')
 
     # divide to two parts
     QuickSort_firstPivot(num_list, lb, l-1)
     QuickSort_firstPivot(num_list, l+1, rb)
     return num_list
 
-def print_list(num_list):
+def print_list(num_list, text):
     output_str = ''
     for n in num_list:
         output_str += str(n)+' '
-    print(output_str[:-1])
+    print(text, output_str[:-1])
 
 if __name__ == '__main__':
     num_of_input = int(input())
     num_list = list(map(int, input().split(' ')))
     buffer = 0
 
-    print_list(num_list) #begin
     QuickSort_firstPivot(num_list, 0, num_of_input-1)

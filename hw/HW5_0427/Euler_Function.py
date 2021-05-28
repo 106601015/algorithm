@@ -22,9 +22,10 @@ if __name__ == '__main__':
         num = int(input())
         counter = 0
 
-        for i in range(1, num):
-            if is_relatively_prime(i, num):
-                counter += 1
-
-        #print(str(counter))
-        print(counter)
+        if num == 1:
+            print(1)
+        else:
+            for i in range(1, num):
+                if is_relatively_prime(i, num):
+                    counter += 1
+            print(counter)

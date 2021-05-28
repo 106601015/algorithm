@@ -1,8 +1,8 @@
+# import the following packages
 import os
 import random
 import numpy as np
 from PIL import Image
-#import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Flatten
 from tensorflow.keras.layers import Conv2D, MaxPooling2D
@@ -16,7 +16,7 @@ import datetime
 def data_x_y_preprocess(datapath):
     print('data_x_y_preprocess init')
     img_row, img_col = 28, 28
-    data_x = np.zeros((28, 28)).reshape(1, 28, 28)
+    data_x = np.zeros((img_row, img_col)).reshape(1, img_row, img_col)
     pic_counter = 0
     data_y = []
     num_class = 10
@@ -26,7 +26,7 @@ def data_x_y_preprocess(datapath):
             data_y.append(int(root.split('\\')[-1]))
             fullpath = os.path.join(root, f)
             img = Image.open(fullpath)
-            img = (np.array(img)/255).reshape(1, 28, 28) #nomalize
+            img = (np.array(img)/255).reshape(1, img_row, img_col) #nomalize
             data_x = np.vstack((data_x, img))
             pic_counter += 1
     data_x = np.delete(data_x, 0, axis=0)
