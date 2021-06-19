@@ -1,0 +1,20 @@
+210619 122445.938|CONFIG|main|setFileHandlers|Now logging to C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin\logs directory.
+210619 122445.943|INFO|main|info|
+210619 122445.948|INFO|main|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 15.0.2 build 3850 Windows 10 10.0 (amd64) 
+210619 122445.949|INFO|main|startLog|Working directory is C:\Users\user\Desktop\algorithm\pc2-9.4.1\bin
+210619 122445.989|INFO|main|startLog|Process id is 16396@MSI
+210619 122445.990|INFO|main|start|Starting ConnectionManager...
+210619 122446.067|INFO|main|start|Started ConnectionManager
+210619 122446.070|INFO|main|setClientServerAndPort|INIFile File location: file:/C:/Users/user/Desktop/algorithm/pc2-9.4.1/bin/pc2v9.ini
+210619 122446.070|INFO|main|setClientServerAndPort|setClientServerAndPort 140.115.54.193 parsed as 140.115.54.193 port 50002
+210619 122446.070|INFO|main|info|Contacting server at 140.115.54.193:50002
+210619 122446.071|INFO|main|connectToMyServer|Connecting to 140.115.54.193:50002
+210619 122507.110|INFO|main|<init>|IO Exception:140.115.54.193
+210619 122507.112|INFO|main|connectToMyServer|Could not ConnectToMyServer()
+210619 122507.113|INFO|main|start|Exception contacting my server 
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection timed out: connect
+|    at edu.csus.ecs.pc2.core.transport.TransportManager.connectToMyServer (TransportManager.java:197)
+|    at edu.csus.ecs.pc2.core.transport.connection.ConnectionManager.connectToMyServer (ConnectionManager.java:99)
+|    at edu.csus.ecs.pc2.core.InternalController.start (InternalController.java:2664)
+|    at edu.csus.ecs.pc2.Starter.main (Starter.java:49)
+210619 122507.115|INFO|main|info|Unable to contact server at 140.115.54.193:0 Connection timed out: connect

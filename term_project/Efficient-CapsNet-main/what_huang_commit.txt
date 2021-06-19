@@ -1,0 +1,25 @@
+efficient_capsnet_train.ipynb, efficient_capsnet_test.ipynb:
+1. 'cd drive/MyDrive/Efficient-CapsNet-main'
+2. 'pip install -r requirements.txt'
+3. mount drive command + set runtime to GPU <--- important !!
+
+config.json:
+1. [epochs] 150 -> 10
+2. new [TERM_PROJECT_INPUT_SHAPE] = [28, 28, 1]
+new term_project data folder(4 npy data, train_image(folder), test_image(folder))
+
+local: alg. folder new eff_cpas_data_x_y_preprocess.py and eff_cpas_dataset to create train/test x/y 4 npy data, upload to drive
+
+
+transfer to term_project for 4 steps:
+1. create a model file：(done)
+new ./models/efficient_capsnet_graph_term_project.py ([28, 28, 1], same as MNIST shape, direct transfer from efficient_capsnet_graph_mnist)
+
+2. modify model script, adding to the "load_graph"：(done)
+modify ./model/model.py import, load_graph part
+
+3. create an object of the EfficientCapsNet and call the "train" method(done)
+4. passing a dataset object with a method "get_tf_data" that provides a tf.data object for the training and one for validation.(done)
+modify ./utils/dataset.py get_dataset, get_tf_data part
+modify __init__.py to import pre_process_term_project.py
+new ./utils/pre_process_term_project.py (for generate_tf_data function, you don't need to preprocess term_project npy data)
