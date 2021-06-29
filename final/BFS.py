@@ -76,3 +76,12 @@ if __name__ == '__main__':
     target_node = Node(target_puzzle_map)
     tree = BFS_Tree(root_node)
     tree.create_bfs_tree(target_node)
+
+'''
+0 1 3
+4 5 6
+7 2 8
+4 1 3
+7 5 6
+0 2 8
+'''

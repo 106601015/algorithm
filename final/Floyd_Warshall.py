@@ -11,7 +11,7 @@ class Graph():
                     self.d[i].append(0)
                 else:
                     self.d[i].append(999)
-                self.p[i].append('inf')
+                self.p[i].append('None')
     def append_alpha(self, alpha):
         self.alpha_list.append(alpha)
     def append_path(self, begin_alpha, end_alpha, cost):
@@ -40,10 +40,13 @@ class Graph():
         for k in range(n):
             for i in range(n):
                 for j in range(n):
-                    new_cost = self.d[i][k]+self.d[k][j]
-                    if self.d[i][j] > new_cost:
-                        self.d[i][j] = new_cost
-                        self.p[i][j] = self.p[k][j]
+                    if self.d[i][k] == 999 or self.d[k][j] == 999:
+                        pass
+                    else:
+                        new_cost = self.d[i][k]+self.d[k][j]
+                        if self.d[i][j] > new_cost or self.d[i][j] == 999:
+                            self.d[i][j] = new_cost
+                            self.p[i][j] = self.p[k][j]
         return self.d, self.p
 
 if __name__ == '__main__':
@@ -63,7 +66,17 @@ if __name__ == '__main__':
     assert len(graph.alpha_list) == n
     graph.sort_all()
     d, p = graph.floyd_warshall()
-    print(d)
+    #print(d)
+
+    for i in range(n):
+        output_str = ''
+        for j in range(n):
+            if d[i][j] == 999:
+                output_str += 'INF '
+            else:
+                output_str += str(d[i][j]) + ' '
+        print(output_str[:-1])
+
 
 
 '''
@@ -89,4 +102,14 @@ a e -4
 c b 4
 d a 2
 e d 6
+'''
+'''
+5 7
+A B 6
+A C 5
+A D 11
+A E 16
+B C -3
+C D -2
+D E 2
 '''
